@@ -1,25 +1,24 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 AUG 2019 18:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  20 AUG 2019 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **"Design and Characterization of a 28-nm .tex"
 (./Design and Characterization of a 28-nm .tex
-LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
 \@IEEEtrantmpdimenA=\dimen102
 \@IEEEtrantmpdimenB=\dimen103
 \@IEEEtrantmpdimenC=\dimen104
-\@IEEEtrantmpcountA=\count79
-\@IEEEtrantmpcountB=\count80
-\@IEEEtrantmpcountC=\count81
+\@IEEEtrantmpcountA=\count80
+\@IEEEtrantmpcountB=\count81
+\@IEEEtrantmpcountC=\count82
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -91,72 +90,72 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEiednormlabelsep=\dimen118
 \IEEEiedmathlabelsep=\dimen119
 \IEEEiedtopsep=\skip41
-\c@section=\count82
-\c@subsection=\count83
-\c@subsubsection=\count84
-\c@paragraph=\count85
-\c@IEEEsubequation=\count86
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@IEEEsubequation=\count87
 \abovecaptionskip=\skip42
 \belowcaptionskip=\skip43
-\c@figure=\count87
-\c@table=\count88
-\@IEEEeqnnumcols=\count89
-\@IEEEeqncolcnt=\count90
-\@IEEEsubeqnnumrollback=\count91
+\c@figure=\count88
+\c@table=\count89
+\@IEEEeqnnumcols=\count90
+\@IEEEeqncolcnt=\count91
+\@IEEEsubeqnnumrollback=\count92
 \@IEEEquantizeheightA=\dimen120
 \@IEEEquantizeheightB=\dimen121
 \@IEEEquantizeheightC=\dimen122
 \@IEEEquantizeprevdepth=\dimen123
-\@IEEEquantizemultiple=\count92
-\@IEEEquantizeboxA=\box26
+\@IEEEquantizemultiple=\count93
+\@IEEEquantizeboxA=\box27
 \@IEEEtmpitemindent=\dimen124
 \IEEEPARstartletwidth=\dimen125
-\c@IEEEbiography=\count93
-\@IEEEtranrubishbin=\box27
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
+\c@IEEEbiography=\count94
+\@IEEEtranrubishbin=\box28
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip44
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
 \ex@=\dimen126
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen127
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count94
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count95
-\leftroot@=\count96
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count97
-\DOTSCASE@=\count98
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box28
-\strutbox@=\box29
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
 \big@size=\dimen128
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count99
-\c@MaxMatrixCols=\count100
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
 \dotsspace@=\muskip10
-\c@parentequation=\count101
-\dspbrk@lvl=\count102
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
 \tag@help=\toks16
-\row@=\count103
-\column@=\count104
-\maxfields@=\count105
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
 \andhelp@=\toks17
 \eqnshift@=\dimen129
 \alignsep@=\dimen130
@@ -168,55 +167,47 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \multlinegap=\skip45
 \multlinetaggap=\skip46
 \mathdisplay@stack=\toks19
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count106
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/euscript.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/euscript.sty
 Package: euscript 2009/06/22 v3.00 Euler Script fonts
 LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
 (Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \heavyrulewidth=\dimen137
 \lightrulewidth=\dimen138
@@ -236,7 +227,7 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \@lastruleclass=\count110
 \@thisrulewidth=\dimen149
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip47
 \subfigcapskip=\skip48
@@ -252,7 +243,7 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip51
 \subfig@bottom=\skip52
 )
@@ -273,11 +264,11 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 
 -- Lines per column: 58 (exact).
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
 \scratchdimen=\dimen152
-\scratchbox=\box30
+\scratchbox=\box31
 \nofMPsegments=\count116
 \nofMParguments=\count117
 \everyMPshowfont=\toks21
@@ -286,74 +277,75 @@ LaTeX Font Info:    ... okay on input line 12.
 \MPnumerator=\count119
 \makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks22
-) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
-)
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
+))))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package epstopdf Info: Source file: <Figures/Figure_1.eps>
-(epstopdf)                    date: 2019-08-20 16:38:20
+(epstopdf)                    date: 2019-08-20 15:44:23
 (epstopdf)                    size: 3448922 bytes
 (epstopdf)             Output file: <Figures/Figure_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 16:24:58
 (epstopdf)                    size: 24362 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Figure_1-eps-conve
 rted-to.pdf Figures/Figure_1.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
-
 <Figures/Figure_1-eps-converted-to.pdf, id=1, 1850.915pt x 456.70625pt>
 File: Figures/Figure_1-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/Figure_1-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Figure_1-eps-converted-to.pdf used on input li
-ne 43.
+Package pdftex.def Info: Figures/Figure_1-eps-converted-to.pdf  used on input l
+ine 43.
 (pdftex.def)             Requested size: 504.0pt x 124.35764pt.
- [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+[1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
@@ -362,10 +354,10 @@ Underfull \hbox (badness 4899) in paragraph at lines 49--51
  []
 
 Package epstopdf Info: Source file: <FIGURES/FIGURE_2.eps>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 15:45:06
 (epstopdf)                    size: 1835490 bytes
 (epstopdf)             Output file: <FIGURES/FIGURE_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 16:24:59
 (epstopdf)                    size: 20165 bytes
 (epstopdf)             Command: <repstopdf --outfile=FIGURES/FIGURE_2-eps-conve
 rted-to.pdf FIGURES/FIGURE_2.eps>
@@ -373,844 +365,765 @@ rted-to.pdf FIGURES/FIGURE_2.eps>
 Package epstopdf Info: Output file is already uptodate.
 <FIGURES/FIGURE_2-eps-converted-to.pdf, id=11, 200.75pt x 255.95625pt>
 File: FIGURES/FIGURE_2-eps-converted-to.pdf Graphic file (type pdf)
-
 <use FIGURES/FIGURE_2-eps-converted-to.pdf>
-Package pdftex.def Info: FIGURES/FIGURE_2-eps-converted-to.pdf used on input li
-ne 79.
+Package pdftex.def Info: FIGURES/FIGURE_2-eps-converted-to.pdf  used on input l
+ine 79.
 (pdftex.def)             Requested size: 126.0pt x 160.65573pt.
- [2 <./Figures/Figure_1-eps-converted-to.pdf>]
+[2 <./Figures/Figure_1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/FIGURE_3.eps>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 15:46:56
 (epstopdf)                    size: 2302126 bytes
 (epstopdf)             Output file: <Figures/FIGURE_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 16:25:00
 (epstopdf)                    size: 35318 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_3-eps-conve
 rted-to.pdf Figures/FIGURE_3.eps>
 (epstopdf)             \includegraphics on input line 97.
 Package epstopdf Info: Output file is already uptodate.
- <Figures/FIGURE_3-eps-converted-to.pdf, id=45, 642.4pt x 325.215pt>
+<Figures/FIGURE_3-eps-converted-to.pdf, id=45, 642.4pt x 325.215pt>
 File: Figures/FIGURE_3-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_3-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_3-eps-converted-to.pdf used on input li
-ne 97.
+Package pdftex.def Info: Figures/FIGURE_3-eps-converted-to.pdf  used on input l
+ine 97.
 (pdftex.def)             Requested size: 252.0pt x 127.57272pt.
 Package epstopdf Info: Source file: <Figures/FIGURE_4.eps>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 15:47:33
 (epstopdf)                    size: 1868770 bytes
 (epstopdf)             Output file: <Figures/FIGURE_4-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 16:25:01
 (epstopdf)                    size: 22758 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_4-eps-conve
 rted-to.pdf Figures/FIGURE_4.eps>
 (epstopdf)             \includegraphics on input line 117.
 Package epstopdf Info: Output file is already uptodate.
-
 <Figures/FIGURE_4-eps-converted-to.pdf, id=46, 260.975pt x 213.79875pt>
 File: Figures/FIGURE_4-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_4-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_4-eps-converted-to.pdf used on input li
-ne 117.
+Package pdftex.def Info: Figures/FIGURE_4-eps-converted-to.pdf  used on input l
+ine 117.
 (pdftex.def)             Requested size: 151.20154pt x 123.8696pt.
  [3 <./FIGURES/FIGURE_2-eps-converted-to.pdf> <./Figures/FIGURE_3-eps-converted
 -to.pdf> <./Figures/FIGURE_4-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/FIGURE_5.eps>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 15:48:37
 (epstopdf)                    size: 724294 bytes
 (epstopdf)             Output file: <Figures/FIGURE_5-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 16:25:01
 (epstopdf)                    size: 56993 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_5-eps-conve
 rted-to.pdf Figures/FIGURE_5.eps>
 (epstopdf)             \includegraphics on input line 171.
 Package epstopdf Info: Output file is already uptodate.
-
 <Figures/FIGURE_5-eps-converted-to.pdf, id=92, 361.35pt x 367.3725pt>
 File: Figures/FIGURE_5-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_5-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_5-eps-converted-to.pdf used on input li
-ne 171.
+Package pdftex.def Info: Figures/FIGURE_5-eps-converted-to.pdf  used on input l
+ine 171.
 (pdftex.def)             Requested size: 151.20154pt x 153.7236pt.
 Package epstopdf Info: Source file: <Figures/FIGURE_6.eps>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 15:57:41
 (epstopdf)                    size: 3062278 bytes
 (epstopdf)             Output file: <Figures/FIGURE_6-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 16:25:02
 (epstopdf)                    size: 31282 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_6-eps-conve
 rted-to.pdf Figures/FIGURE_6.eps>
 (epstopdf)             \includegraphics on input line 186.
 Package epstopdf Info: Output file is already uptodate.
-
 <Figures/FIGURE_6-eps-converted-to.pdf, id=93, 1031.855pt x 536.0025pt>
 File: Figures/FIGURE_6-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_6-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_6-eps-converted-to.pdf used on input li
-ne 186.
+Package pdftex.def Info: Figures/FIGURE_6-eps-converted-to.pdf  used on input l
+ine 186.
 (pdftex.def)             Requested size: 252.0pt x 130.90056pt.
  [4 <./Figures/FIGURE_5-eps-converted-to.pdf>]
 LaTeX Font Info:    Try loading font information for U+eus on input line 210.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/ueus.fd
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/ueus.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
-)
-[5 <./Figures/FIGURE_6-eps-converted-to.pdf>]
-Overfull \hbox (2.19778pt too wide) in paragraph at lines 271--279
+) [5 <./Figures/FIGURE_6-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Figures/table_1.eps>
+(epstopdf)                    date: 2019-08-20 21:08:15
+(epstopdf)                    size: 959026 bytes
+(epstopdf)             Output file: <Figures/table_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-08-20 21:08:24
+(epstopdf)                    size: 17637 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/table_1-eps-conver
+ted-to.pdf Figures/table_1.eps>
+(epstopdf)             \includegraphics on input line 271.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/table_1-eps-converted-to.pdf, id=123, 518.93875pt x 39.14626pt>
+File: Figures/table_1-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/table_1-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/table_1-eps-converted-to.pdf  used on input li
+ne 271.
+(pdftex.def)             Requested size: 529.20154pt x 39.92505pt.
+
+Overfull \hbox (13.20154pt too wide) in paragraph at lines 271--280
  [] 
  []
 
 [6]
 Package epstopdf Info: Source file: <Figures/FIGURE_7.eps>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 15:59:03
 (epstopdf)                    size: 2503598 bytes
 (epstopdf)             Output file: <Figures/FIGURE_7-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 16:25:02
 (epstopdf)                    size: 23253 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_7-eps-conve
 rted-to.pdf Figures/FIGURE_7.eps>
-(epstopdf)             \includegraphics on input line 295.
+(epstopdf)             \includegraphics on input line 297.
 Package epstopdf Info: Output file is already uptodate.
- <Figures/FIGURE_7-eps-converted-to.pdf, id=126, 934.49126pt x 389.455pt>
+<Figures/FIGURE_7-eps-converted-to.pdf, id=127, 934.49126pt x 389.455pt>
 File: Figures/FIGURE_7-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_7-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_7-eps-converted-to.pdf used on input li
-ne 295.
+Package pdftex.def Info: Figures/FIGURE_7-eps-converted-to.pdf  used on input l
+ine 297.
 (pdftex.def)             Requested size: 252.0pt x 105.01756pt.
 Package epstopdf Info: Source file: <Figures/FIGURE_8.eps>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 15:59:44
 (epstopdf)                    size: 5620986 bytes
 (epstopdf)             Output file: <Figures/FIGURE_8-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 16:25:03
 (epstopdf)                    size: 21606 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_8-eps-conve
 rted-to.pdf Figures/FIGURE_8.eps>
-(epstopdf)             \includegraphics on input line 337.
+(epstopdf)             \includegraphics on input line 339.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figures/FIGURE_8-eps-converted-to.pdf, id=127, 2131.965pt x 890.32625pt>
+<Figures/FIGURE_8-eps-converted-to.pdf, id=128, 2131.965pt x 890.32625pt>
 File: Figures/FIGURE_8-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_8-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_8-eps-converted-to.pdf used on input li
-ne 337.
+Package pdftex.def Info: Figures/FIGURE_8-eps-converted-to.pdf  used on input l
+ine 339.
 (pdftex.def)             Requested size: 252.0pt x 105.23148pt.
 Package epstopdf Info: Source file: <Figures/FIGURE_9.eps>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 16:00:49
 (epstopdf)                    size: 4771658 bytes
 (epstopdf)             Output file: <Figures/FIGURE_9-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 16:25:04
 (epstopdf)                    size: 52492 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_9-eps-conve
 rted-to.pdf Figures/FIGURE_9.eps>
-(epstopdf)             \includegraphics on input line 341.
+(epstopdf)             \includegraphics on input line 343.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figures/FIGURE_9-eps-converted-to.pdf, id=128, 1302.8675pt x 979.66pt>
+<Figures/FIGURE_9-eps-converted-to.pdf, id=129, 1302.8675pt x 979.66pt>
 File: Figures/FIGURE_9-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_9-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_9-eps-converted-to.pdf used on input li
-ne 341.
+Package pdftex.def Info: Figures/FIGURE_9-eps-converted-to.pdf  used on input l
+ine 343.
 (pdftex.def)             Requested size: 252.0pt x 189.48578pt.
- [7 <./Figures/FIGURE_7-eps-converted-to.pdf>]
+ [7 <./Figures/table_1-eps-converted-to.pdf> <./Figures/FIGURE_7-eps-converted-
+to.pdf>]
 Package epstopdf Info: Source file: <Figures/FIGURE_10.eps>
-(epstopdf)                    date: 2019-08-20 16:38:20
+(epstopdf)                    date: 2019-08-20 16:01:28
 (epstopdf)                    size: 3056026 bytes
 (epstopdf)             Output file: <Figures/FIGURE_10-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:20
+(epstopdf)                    date: 2019-08-20 16:25:05
 (epstopdf)                    size: 20802 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_10-eps-conv
 erted-to.pdf Figures/FIGURE_10.eps>
-(epstopdf)             \includegraphics on input line 353.
+(epstopdf)             \includegraphics on input line 355.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figures/FIGURE_10-eps-converted-to.pdf, id=148, 1432.35126pt x 449.68pt>
+<Figures/FIGURE_10-eps-converted-to.pdf, id=157, 1432.35126pt x 449.68pt>
 File: Figures/FIGURE_10-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_10-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_10-eps-converted-to.pdf used on input l
-ine 353.
+Package pdftex.def Info: Figures/FIGURE_10-eps-converted-to.pdf  used on input 
+line 355.
 (pdftex.def)             Requested size: 252.0pt x 79.11372pt.
 Package epstopdf Info: Source file: <Figures/FIGURE_11.eps>
-(epstopdf)                    date: 2019-08-20 16:38:20
+(epstopdf)                    date: 2019-08-20 16:08:50
 (epstopdf)                    size: 9811178 bytes
 (epstopdf)             Output file: <Figures/FIGURE_11-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:20
+(epstopdf)                    date: 2019-08-20 16:25:05
 (epstopdf)                    size: 908632 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_11-eps-conv
 erted-to.pdf Figures/FIGURE_11.eps>
-(epstopdf)             \includegraphics on input line 360.
+(epstopdf)             \includegraphics on input line 362.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figures/FIGURE_11-eps-converted-to.pdf, id=149, 578.16pt x 152.57pt>
+<Figures/FIGURE_11-eps-converted-to.pdf, id=158, 578.16pt x 152.57pt>
 File: Figures/FIGURE_11-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_11-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_11-eps-converted-to.pdf used on input l
-ine 360.
+Package pdftex.def Info: Figures/FIGURE_11-eps-converted-to.pdf  used on input 
+line 362.
 (pdftex.def)             Requested size: 504.0pt x 133.00021pt.
 Package epstopdf Info: Source file: <Figures/FIGURE_12.eps>
-(epstopdf)                    date: 2019-08-20 16:38:20
+(epstopdf)                    date: 2019-08-20 16:04:09
 (epstopdf)                    size: 3154034 bytes
 (epstopdf)             Output file: <Figures/FIGURE_12-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:20
+(epstopdf)                    date: 2019-08-20 16:25:06
 (epstopdf)                    size: 34613 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_12-eps-conv
 erted-to.pdf Figures/FIGURE_12.eps>
-(epstopdf)             \includegraphics on input line 370.
+(epstopdf)             \includegraphics on input line 372.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figures/FIGURE_12-eps-converted-to.pdf, id=150, 1069.9975pt x 567.11874pt>
+<Figures/FIGURE_12-eps-converted-to.pdf, id=159, 1069.9975pt x 567.11874pt>
 File: Figures/FIGURE_12-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_12-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_12-eps-converted-to.pdf used on input l
-ine 370.
+Package pdftex.def Info: Figures/FIGURE_12-eps-converted-to.pdf  used on input 
+line 372.
 (pdftex.def)             Requested size: 378.0pt x 200.34639pt.
  [8 <./Figures/FIGURE_8-eps-converted-to.pdf> <./Figures/FIGURE_9-eps-converted
 -to.pdf> <./Figures/FIGURE_10-eps-converted-to.pdf>] [9 <./Figures/FIGURE_11-ep
 s-converted-to.pdf> <./Figures/FIGURE_12-eps-converted-to.pdf>]
-Underfull \hbox (badness 2401) in paragraph at lines 394--395
+Underfull \hbox (badness 2401) in paragraph at lines 396--397
 []\OT1/ptm/m/n/10 After eval-u-at-ing the tran-sis-tor per-for-mance, the low-
  []
 
-
-Underfull \vbox (badness 5519) has occurred while \output is active []
-
 Package epstopdf Info: Source file: <Figures/FIGURE_13.eps>
-(epstopdf)                    date: 2019-08-20 16:38:20
+(epstopdf)                    date: 2019-08-20 16:10:40
 (epstopdf)                    size: 1941478 bytes
 (epstopdf)             Output file: <Figures/FIGURE_13-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:20
+(epstopdf)                    date: 2019-08-20 16:25:07
 (epstopdf)                    size: 105812 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_13-eps-conv
 erted-to.pdf Figures/FIGURE_13.eps>
-(epstopdf)             \includegraphics on input line 416.
+(epstopdf)             \includegraphics on input line 414.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figures/FIGURE_13-eps-converted-to.pdf, id=207, 662.475pt x 509.905pt>
+<Figures/FIGURE_13-eps-converted-to.pdf, id=216, 662.475pt x 509.905pt>
 File: Figures/FIGURE_13-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_13-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_13-eps-converted-to.pdf used on input l
-ine 416.
+Package pdftex.def Info: Figures/FIGURE_13-eps-converted-to.pdf  used on input 
+line 414.
 (pdftex.def)             Requested size: 252.0pt x 193.96042pt.
+
+Underfull \vbox (badness 5519) has occurred while \output is active []
+
+ [10 <./Figures/FIGURE_13-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/FIGURE_14.eps>
-(epstopdf)                    date: 2019-08-20 16:38:20
+(epstopdf)                    date: 2019-08-20 16:11:26
 (epstopdf)                    size: 3192538 bytes
 (epstopdf)             Output file: <Figures/FIGURE_14-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:20
+(epstopdf)                    date: 2019-08-20 16:25:08
 (epstopdf)                    size: 635400 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_14-eps-conv
 erted-to.pdf Figures/FIGURE_14.eps>
-(epstopdf)             \includegraphics on input line 420.
+(epstopdf)             \includegraphics on input line 423.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figures/FIGURE_14-eps-converted-to.pdf, id=208, 822.07124pt x 281.05pt>
+<Figures/FIGURE_14-eps-converted-to.pdf, id=225, 822.07124pt x 281.05pt>
 File: Figures/FIGURE_14-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_14-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_14-eps-converted-to.pdf used on input l
-ine 420.
+Package pdftex.def Info: Figures/FIGURE_14-eps-converted-to.pdf  used on input 
+line 423.
 (pdftex.def)             Requested size: 252.0pt x 86.15111pt.
- [10]
 Package epstopdf Info: Source file: <Figures/FIGURE_15.eps>
-(epstopdf)                    date: 2019-08-20 16:38:20
+(epstopdf)                    date: 2019-08-20 16:12:43
 (epstopdf)                    size: 4814826 bytes
 (epstopdf)             Output file: <Figures/FIGURE_15-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:20
+(epstopdf)                    date: 2019-08-20 16:25:08
 (epstopdf)                    size: 278802 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_15-eps-conv
 erted-to.pdf Figures/FIGURE_15.eps>
-(epstopdf)             \includegraphics on input line 444.
+(epstopdf)             \includegraphics on input line 434.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figures/FIGURE_15-eps-converted-to.pdf, id=212, 1597.97pt x 518.93875pt>
+<Figures/FIGURE_15-eps-converted-to.pdf, id=226, 1597.97pt x 518.93875pt>
 File: Figures/FIGURE_15-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_15-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_15-eps-converted-to.pdf used on input l
-ine 444.
+Package pdftex.def Info: Figures/FIGURE_15-eps-converted-to.pdf  used on input 
+line 434.
 (pdftex.def)             Requested size: 252.0pt x 81.83621pt.
 Package epstopdf Info: Source file: <Figures/FIGURE_16.eps>
-(epstopdf)                    date: 2019-08-20 16:38:20
+(epstopdf)                    date: 2019-08-20 16:13:39
 (epstopdf)                    size: 1165994 bytes
 (epstopdf)             Output file: <Figures/FIGURE_16-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:20
+(epstopdf)                    date: 2019-08-20 16:25:09
 (epstopdf)                    size: 113476 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_16-eps-conv
 erted-to.pdf Figures/FIGURE_16.eps>
-(epstopdf)             \includegraphics on input line 452.
+(epstopdf)             \includegraphics on input line 441.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figures/FIGURE_16-eps-converted-to.pdf, id=213, 662.475pt x 401.5pt>
+<Figures/FIGURE_16-eps-converted-to.pdf, id=227, 662.475pt x 401.5pt>
 File: Figures/FIGURE_16-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_16-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_16-eps-converted-to.pdf used on input l
-ine 452.
+Package pdftex.def Info: Figures/FIGURE_16-eps-converted-to.pdf  used on input 
+line 441.
 (pdftex.def)             Requested size: 252.0pt x 152.72473pt.
 Package epstopdf Info: Source file: <Figures/FIGURE_17.eps>
-(epstopdf)                    date: 2019-08-20 16:38:20
+(epstopdf)                    date: 2019-08-20 16:14:47
 (epstopdf)                    size: 20251358 bytes
 (epstopdf)             Output file: <Figures/FIGURE_17-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:20
+(epstopdf)                    date: 2019-08-20 16:25:12
 (epstopdf)                    size: 1641896 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_17-eps-conv
 erted-to.pdf Figures/FIGURE_17.eps>
-(epstopdf)             \includegraphics on input line 456.
+(epstopdf)             \includegraphics on input line 445.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figures/FIGURE_17-eps-converted-to.pdf, id=214, 1422.31375pt x 573.14125pt>
+<Figures/FIGURE_17-eps-converted-to.pdf, id=228, 1422.31375pt x 573.14125pt>
 File: Figures/FIGURE_17-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_17-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_17-eps-converted-to.pdf used on input l
-ine 456.
+Package pdftex.def Info: Figures/FIGURE_17-eps-converted-to.pdf  used on input 
+line 445.
 (pdftex.def)             Requested size: 252.0pt x 101.54306pt.
- [11 <./Figures/FIGURE_13-eps-converted-to.pdf> <./Figures/FIGURE_14-eps-conver
-ted-to.pdf> <./Figures/FIGURE_15-eps-converted-to.pdf>]
+ [11 <./Figures/FIGURE_14-eps-converted-to.pdf> <./Figures/FIGURE_15-eps-conver
+ted-to.pdf> <./Figures/FIGURE_16-eps-converted-to.pdf> <./Figures/FIGURE_17-eps
+-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/FIGURE_18.eps>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 16:15:48
 (epstopdf)                    size: 10183358 bytes
 (epstopdf)             Output file: <Figures/FIGURE_18-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:39:07
+(epstopdf)                    date: 2019-08-20 20:43:20
 (epstopdf)                    size: 1049851 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_18-eps-conv
 erted-to.pdf Figures/FIGURE_18.eps>
-(epstopdf)             \includegraphics on input line 468.
+(epstopdf)             \includegraphics on input line 473.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figures/FIGURE_18-eps-converted-to.pdf, id=247, 1524.69624pt x 1453.43pt>
+<Figures/FIGURE_18-eps-converted-to.pdf, id=271, 1524.69624pt x 1453.43pt>
 File: Figures/FIGURE_18-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_18-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_18-eps-converted-to.pdf used on input l
-ine 468.
+Package pdftex.def Info: Figures/FIGURE_18-eps-converted-to.pdf  used on input 
+line 473.
 (pdftex.def)             Requested size: 252.0pt x 240.20479pt.
 Package epstopdf Info: Source file: <Figures/FIGURE_19.eps>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 16:17:14
 (epstopdf)                    size: 1121706 bytes
 (epstopdf)             Output file: <Figures/FIGURE_19-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 16:25:16
 (epstopdf)                    size: 87287 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_19-eps-conv
 erted-to.pdf Figures/FIGURE_19.eps>
-(epstopdf)             \includegraphics on input line 483.
+(epstopdf)             \includegraphics on input line 488.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figures/FIGURE_19-eps-converted-to.pdf, id=248, 658.46pt x 410.53375pt>
+<Figures/FIGURE_19-eps-converted-to.pdf, id=272, 658.46pt x 410.53375pt>
 File: Figures/FIGURE_19-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_19-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_19-eps-converted-to.pdf used on input l
-ine 483.
+Package pdftex.def Info: Figures/FIGURE_19-eps-converted-to.pdf  used on input 
+line 488.
 (pdftex.def)             Requested size: 252.0pt x 157.1132pt.
- [12 <./Figures/FIGURE_16-eps-converted-to.pdf> <./Figures/FIGURE_17-eps-conver
-ted-to.pdf> <./Figures/FIGURE_18-eps-converted-to.pdf>]
+ [12 <./Figures/FIGURE_18-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/FIGURE_20.eps>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 16:18:04
 (epstopdf)                    size: 1024446 bytes
 (epstopdf)             Output file: <Figures/FIGURE_20-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-20 16:38:21
+(epstopdf)                    date: 2019-08-20 16:25:16
 (epstopdf)                    size: 59214 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/FIGURE_20-eps-conv
 erted-to.pdf Figures/FIGURE_20.eps>
-(epstopdf)             \includegraphics on input line 491.
+(epstopdf)             \includegraphics on input line 496.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figures/FIGURE_20-eps-converted-to.pdf, id=308, 664.4825pt x 408.52625pt>
+<Figures/FIGURE_20-eps-converted-to.pdf, id=317, 664.4825pt x 408.52625pt>
 File: Figures/FIGURE_20-eps-converted-to.pdf Graphic file (type pdf)
-
 <use Figures/FIGURE_20-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/FIGURE_20-eps-converted-to.pdf used on input l
-ine 491.
+Package pdftex.def Info: Figures/FIGURE_20-eps-converted-to.pdf  used on input 
+line 496.
 (pdftex.def)             Requested size: 252.0pt x 154.9299pt.
+Package epstopdf Info: Source file: <Figures/table_2.eps>
+(epstopdf)                    date: 2019-08-20 21:16:09
+(epstopdf)                    size: 988714 bytes
+(epstopdf)             Output file: <Figures/table_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-08-20 21:16:40
+(epstopdf)                    size: 28820 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/table_2-eps-conver
+ted-to.pdf Figures/table_2.eps>
+(epstopdf)             \includegraphics on input line 505.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/table_2-eps-converted-to.pdf, id=318, 231.86626pt x 111.41624pt>
+File: Figures/table_2-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/table_2-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/table_2-eps-converted-to.pdf  used on input li
+ne 505.
+(pdftex.def)             Requested size: 231.83954pt x 111.40576pt.
+Package epstopdf Info: Source file: <Figures/table_3.eps>
+(epstopdf)                    date: 2019-08-20 21:20:45
+(epstopdf)                    size: 1177670 bytes
+(epstopdf)             Output file: <Figures/table_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-08-20 21:21:12
+(epstopdf)                    size: 25193 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/table_3-eps-conver
+ted-to.pdf Figures/table_3.eps>
+(epstopdf)             \includegraphics on input line 526.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/table_3-eps-converted-to.pdf, id=319, 483.8075pt x 155.58125pt>
+File: Figures/table_3-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/table_3-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/table_3-eps-converted-to.pdf  used on input li
+ne 526.
+(pdftex.def)             Requested size: 481.32092pt x 154.78793pt.
  [13 <./Figures/FIGURE_19-eps-converted-to.pdf> <./Figures/FIGURE_20-eps-conver
-ted-to.pdf>]
+ted-to.pdf> <./Figures/table_2-eps-converted-to.pdf>]
 (./Design and Characterization of a 28-nm .bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 4634) in paragraph at lines 52--55
 []\OT1/ptm/m/n/8 J. Kel-ley, ``A pre-view of Bristle-cone, Google's new quan-tu
 m
  []
 
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
 
 Underfull \hbox (badness 3724) in paragraph at lines 57--60
 \OT1/ptm/m/n/8 https://spectrum.ieee.org/tech-talk/computing/hardware/ intels-4
 9qubit-
  []
 
-[14]) <Photos_For_JSSC/BARDIN.jpg, id=348, 72.27pt x 90.3375pt>
+[14 <./Figures/table_3-eps-converted-to.pdf>])
+<Photos_For_JSSC/BARDIN.jpg, id=381, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/BARDIN.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/BARDIN.jpg>
-Package pdftex.def Info: Photos_For_JSSC/BARDIN.jpg used on input line 585.
+Package pdftex.def Info: Photos_For_JSSC/BARDIN.jpg  used on input line 591.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/BARDIN.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/BARDIN.jpg>
-Package pdftex.def Info: Photos_For_JSSC/BARDIN.jpg used on input line 585.
+<use Photos_For_JSSC/BARDIN.jpg>
+Package pdftex.def Info: Photos_For_JSSC/BARDIN.jpg  used on input line 591.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no “ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-
-<Photos_For_JSSC/EVAN.jpg, id=351, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/EVAN.jpg, id=384, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/EVAN.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/EVAN.jpg>
-Package pdftex.def Info: Photos_For_JSSC/EVAN.jpg used on input line 595.
+Package pdftex.def Info: Photos_For_JSSC/EVAN.jpg  used on input line 601.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/EVAN.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/EVAN.jpg>
-Package pdftex.def Info: Photos_For_JSSC/EVAN.jpg used on input line 595.
+<use Photos_For_JSSC/EVAN.jpg>
+Package pdftex.def Info: Photos_For_JSSC/EVAN.jpg  used on input line 601.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
  [15 <./Photos_For_JSSC/BARDIN.jpg> <./Photos_For_JSSC/EVAN.jpg>]
-<Photos_For_JSSC/ErikLucero.jpg, id=359, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/ErikLucero.jpg, id=393, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/ErikLucero.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/ErikLucero.jpg>
-Package pdftex.def Info: Photos_For_JSSC/ErikLucero.jpg used on input line 600.
-
+Package pdftex.def Info: Photos_For_JSSC/ErikLucero.jpg  used on input line 606
+.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/ErikLucero.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/ErikLucero.jpg>
-Package pdftex.def Info: Photos_For_JSSC/ErikLucero.jpg used on input line 600.
-
+<use Photos_For_JSSC/ErikLucero.jpg>
+Package pdftex.def Info: Photos_For_JSSC/ErikLucero.jpg  used on input line 606
+.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-
-<Photos_For_JSSC/TrentHuang.jpg, id=362, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/TrentHuang.jpg, id=396, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/TrentHuang.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/TrentHuang.jpg>
-Package pdftex.def Info: Photos_For_JSSC/TrentHuang.jpg used on input line 607.
-
+Package pdftex.def Info: Photos_For_JSSC/TrentHuang.jpg  used on input line 613
+.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/TrentHuang.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/TrentHuang.jpg>
-Package pdftex.def Info: Photos_For_JSSC/TrentHuang.jpg used on input line 607.
-
+<use Photos_For_JSSC/TrentHuang.jpg>
+Package pdftex.def Info: Photos_For_JSSC/TrentHuang.jpg  used on input line 613
+.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/sayan.jpg, id=365, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/sayan.jpg, id=399, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/sayan.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/sayan.jpg>
-Package pdftex.def Info: Photos_For_JSSC/sayan.jpg used on input line 614.
+Package pdftex.def Info: Photos_For_JSSC/sayan.jpg  used on input line 620.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/sayan.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/sayan.jpg>
-Package pdftex.def Info: Photos_For_JSSC/sayan.jpg used on input line 614.
+<use Photos_For_JSSC/sayan.jpg>
+Package pdftex.def Info: Photos_For_JSSC/sayan.jpg  used on input line 620.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/Daniel.jpg, id=368, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/Daniel.jpg, id=402, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/Daniel.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/Daniel.jpg>
-Package pdftex.def Info: Photos_For_JSSC/Daniel.jpg used on input line 622.
+Package pdftex.def Info: Photos_For_JSSC/Daniel.jpg  used on input line 628.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/Daniel.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/Daniel.jpg>
-Package pdftex.def Info: Photos_For_JSSC/Daniel.jpg used on input line 622.
+<use Photos_For_JSSC/Daniel.jpg>
+Package pdftex.def Info: Photos_For_JSSC/Daniel.jpg  used on input line 628.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/ofer.jpg, id=371, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/ofer.jpg, id=405, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/ofer.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/ofer.jpg>
-Package pdftex.def Info: Photos_For_JSSC/ofer.jpg used on input line 630.
+Package pdftex.def Info: Photos_For_JSSC/ofer.jpg  used on input line 636.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/ofer.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/ofer.jpg>
-Package pdftex.def Info: Photos_For_JSSC/ofer.jpg used on input line 630.
+<use Photos_For_JSSC/ofer.jpg>
+Package pdftex.def Info: Photos_For_JSSC/ofer.jpg  used on input line 636.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/AnthonyMegrant.jpg, id=374, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/AnthonyMegrant.jpg, id=408, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/AnthonyMegrant.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/AnthonyMegrant.jpg>
-Package pdftex.def Info: Photos_For_JSSC/AnthonyMegrant.jpg used on input line 
-635.
+Package pdftex.def Info: Photos_For_JSSC/AnthonyMegrant.jpg  used on input line
+ 641.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/AnthonyMegrant.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/AnthonyMegrant.jpg>
-Package pdftex.def Info: Photos_For_JSSC/AnthonyMegrant.jpg used on input line 
-635.
+Package pdftex.def Info: Photos_For_JSSC/AnthonyMegrant.jpg  used on input line
+ 641.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/Ted.jpg, id=377, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/Ted.jpg, id=411, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/Ted.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/Ted.jpg>
-Package pdftex.def Info: Photos_For_JSSC/Ted.jpg used on input line 641.
+Package pdftex.def Info: Photos_For_JSSC/Ted.jpg  used on input line 647.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/Ted.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/Ted.jpg>
-Package pdftex.def Info: Photos_For_JSSC/Ted.jpg used on input line 641.
+<use Photos_For_JSSC/Ted.jpg>
+Package pdftex.def Info: Photos_For_JSSC/Ted.jpg  used on input line 647.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/mgiustina.jpg, id=380, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/mgiustina.jpg, id=414, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/mgiustina.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/mgiustina.jpg>
-Package pdftex.def Info: Photos_For_JSSC/mgiustina.jpg used on input line 646.
+Package pdftex.def Info: Photos_For_JSSC/mgiustina.jpg  used on input line 652.
+
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/mgiustina.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/mgiustina.jpg>
-Package pdftex.def Info: Photos_For_JSSC/mgiustina.jpg used on input line 646.
+<use Photos_For_JSSC/mgiustina.jpg>
+Package pdftex.def Info: Photos_For_JSSC/mgiustina.jpg  used on input line 652.
+
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no ¤ in font ptmr7t!
-
-[16 <./Photos_For_JSSC/ErikLucero.jpg> <./Photos_For_JSSC/TrentHuang.jpg> <./Ph
-otos_For_JSSC/sayan.jpg> <./Photos_For_JSSC/Daniel.jpg> <./Photos_For_JSSC/ofer
-.jpg> <./Photos_For_JSSC/AnthonyMegrant.jpg> <./Photos_For_JSSC/Ted.jpg> <./Pho
-tos_For_JSSC/mgiustina.jpg>]
-<Photos_For_JSSC/kevinjsatzinger.jpg, id=395, 72.27pt x 90.3375pt>
+ [16 <./Photos_For_JSSC/ErikLucero.jpg> <./Photos_For_JSSC/TrentHuang.jpg> <./P
+hotos_For_JSSC/sayan.jpg> <./Photos_For_JSSC/Daniel.jpg> <./Photos_For_JSSC/ofe
+r.jpg> <./Photos_For_JSSC/AnthonyMegrant.jpg> <./Photos_For_JSSC/Ted.jpg> <./Ph
+otos_For_JSSC/mgiustina.jpg>]
+<Photos_For_JSSC/kevinjsatzinger.jpg, id=428, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/kevinjsatzinger.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/kevinjsatzinger.jpg>
-Package pdftex.def Info: Photos_For_JSSC/kevinjsatzinger.jpg used on input line
- 653.
+Package pdftex.def Info: Photos_For_JSSC/kevinjsatzinger.jpg  used on input lin
+e 659.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/kevinjsatzinger.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/kevinjsatzinger.jpg>
-Package pdftex.def Info: Photos_For_JSSC/kevinjsatzinger.jpg used on input line
- 653.
+Package pdftex.def Info: Photos_For_JSSC/kevinjsatzinger.jpg  used on input lin
+e 659.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/KunalArya.jpg, id=398, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/KunalArya.jpg, id=431, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/KunalArya.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/KunalArya.jpg>
-Package pdftex.def Info: Photos_For_JSSC/KunalArya.jpg used on input line 660.
+Package pdftex.def Info: Photos_For_JSSC/KunalArya.jpg  used on input line 666.
+
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/KunalArya.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/KunalArya.jpg>
-Package pdftex.def Info: Photos_For_JSSC/KunalArya.jpg used on input line 660.
+<use Photos_For_JSSC/KunalArya.jpg>
+Package pdftex.def Info: Photos_For_JSSC/KunalArya.jpg  used on input line 666.
+
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/pedram.jpg, id=401, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/pedram.jpg, id=434, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/pedram.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/pedram.jpg>
-Package pdftex.def Info: Photos_For_JSSC/pedram.jpg used on input line 667.
+Package pdftex.def Info: Photos_For_JSSC/pedram.jpg  used on input line 673.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/pedram.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/pedram.jpg>
-Package pdftex.def Info: Photos_For_JSSC/pedram.jpg used on input line 667.
+<use Photos_For_JSSC/pedram.jpg>
+Package pdftex.def Info: Photos_For_JSSC/pedram.jpg  used on input line 673.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/Ben_Chiaro.jpg, id=404, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/Ben_Chiaro.jpg, id=437, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/Ben_Chiaro.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/Ben_Chiaro.jpg>
-Package pdftex.def Info: Photos_For_JSSC/Ben_Chiaro.jpg used on input line 672.
-
+Package pdftex.def Info: Photos_For_JSSC/Ben_Chiaro.jpg  used on input line 678
+.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/Ben_Chiaro.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/Ben_Chiaro.jpg>
-Package pdftex.def Info: Photos_For_JSSC/Ben_Chiaro.jpg used on input line 672.
-
+<use Photos_For_JSSC/Ben_Chiaro.jpg>
+Package pdftex.def Info: Photos_For_JSSC/Ben_Chiaro.jpg  used on input line 678
+.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/juliankelly.jpg, id=407, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/juliankelly.jpg, id=440, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/juliankelly.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/juliankelly.jpg>
-Package pdftex.def Info: Photos_For_JSSC/juliankelly.jpg used on input line 676
-.
+Package pdftex.def Info: Photos_For_JSSC/juliankelly.jpg  used on input line 68
+2.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/juliankelly.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/juliankelly.jpg>
-Package pdftex.def Info: Photos_For_JSSC/juliankelly.jpg used on input line 676
-.
+<use Photos_For_JSSC/juliankelly.jpg>
+Package pdftex.def Info: Photos_For_JSSC/juliankelly.jpg  used on input line 68
+2.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/zijunchen.jpg, id=410, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/zijunchen.jpg, id=443, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/zijunchen.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/zijunchen.jpg>
-Package pdftex.def Info: Photos_For_JSSC/zijunchen.jpg used on input line 683.
+Package pdftex.def Info: Photos_For_JSSC/zijunchen.jpg  used on input line 689.
+
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/zijunchen.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/zijunchen.jpg>
-Package pdftex.def Info: Photos_For_JSSC/zijunchen.jpg used on input line 683.
+<use Photos_For_JSSC/zijunchen.jpg>
+Package pdftex.def Info: Photos_For_JSSC/zijunchen.jpg  used on input line 689.
+
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/BrianBurkett.jpg, id=413, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/BrianBurkett.jpg, id=446, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/BrianBurkett.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/BrianBurkett.jpg>
-Package pdftex.def Info: Photos_For_JSSC/BrianBurkett.jpg used on input line 68
-8.
+Package pdftex.def Info: Photos_For_JSSC/BrianBurkett.jpg  used on input line 6
+94.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/BrianBurkett.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/BrianBurkett.jpg>
-Package pdftex.def Info: Photos_For_JSSC/BrianBurkett.jpg used on input line 68
-8.
+<use Photos_For_JSSC/BrianBurkett.jpg>
+Package pdftex.def Info: Photos_For_JSSC/BrianBurkett.jpg  used on input line 6
+94.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/YuChen.jpg, id=416, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/YuChen.jpg, id=449, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/YuChen.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/YuChen.jpg>
-Package pdftex.def Info: Photos_For_JSSC/YuChen.jpg used on input line 695.
+Package pdftex.def Info: Photos_For_JSSC/YuChen.jpg  used on input line 701.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/YuChen.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/YuChen.jpg>
-Package pdftex.def Info: Photos_For_JSSC/YuChen.jpg used on input line 695.
+<use Photos_For_JSSC/YuChen.jpg>
+Package pdftex.def Info: Photos_For_JSSC/YuChen.jpg  used on input line 701.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/Andrew.jpg, id=419, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/Andrew.jpg, id=452, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/Andrew.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/Andrew.jpg>
-Package pdftex.def Info: Photos_For_JSSC/Andrew.jpg used on input line 701.
+Package pdftex.def Info: Photos_For_JSSC/Andrew.jpg  used on input line 707.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/Andrew.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/Andrew.jpg>
-Package pdftex.def Info: Photos_For_JSSC/Andrew.jpg used on input line 701.
+<use Photos_For_JSSC/Andrew.jpg>
+Package pdftex.def Info: Photos_For_JSSC/Andrew.jpg  used on input line 707.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/AustinFowler.jpg, id=422, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/AustinFowler.jpg, id=455, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/AustinFowler.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/AustinFowler.jpg>
-Package pdftex.def Info: Photos_For_JSSC/AustinFowler.jpg used on input line 70
-6.
+Package pdftex.def Info: Photos_For_JSSC/AustinFowler.jpg  used on input line 7
+12.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/AustinFowler.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/AustinFowler.jpg>
-Package pdftex.def Info: Photos_For_JSSC/AustinFowler.jpg used on input line 70
-6.
+<use Photos_For_JSSC/AustinFowler.jpg>
+Package pdftex.def Info: Photos_For_JSSC/AustinFowler.jpg  used on input line 7
+12.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-[17 <./Photos_For_JSSC/kevinjsatzinger.jpg> <./Photos_For_JSSC/KunalArya.jpg> <
-./Photos_For_JSSC/pedram.jpg> <./Photos_For_JSSC/Ben_Chiaro.jpg> <./Photos_For_
-JSSC/juliankelly.jpg> <./Photos_For_JSSC/zijunchen.jpg> <./Photos_For_JSSC/Bria
-nBurkett.jpg> <./Photos_For_JSSC/YuChen.jpg> <./Photos_For_JSSC/Andrew.jpg> <./
-Photos_For_JSSC/AustinFowler.jpg>]
-<Photos_For_JSSC/BrooksFoxen.png, id=438, 72.27pt x 90.3375pt>
+ [17 <./Photos_For_JSSC/kevinjsatzinger.jpg> <./Photos_For_JSSC/KunalArya.jpg> 
+<./Photos_For_JSSC/pedram.jpg> <./Photos_For_JSSC/Ben_Chiaro.jpg> <./Photos_For
+_JSSC/juliankelly.jpg> <./Photos_For_JSSC/zijunchen.jpg> <./Photos_For_JSSC/Bri
+anBurkett.jpg> <./Photos_For_JSSC/YuChen.jpg> <./Photos_For_JSSC/Andrew.jpg> <.
+/Photos_For_JSSC/AustinFowler.jpg>]
+<Photos_For_JSSC/BrooksFoxen.png, id=471, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/BrooksFoxen.png Graphic file (type png)
-
 <use Photos_For_JSSC/BrooksFoxen.png>
-Package pdftex.def Info: Photos_For_JSSC/BrooksFoxen.png used on input line 711
-.
+Package pdftex.def Info: Photos_For_JSSC/BrooksFoxen.png  used on input line 71
+7.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/BrooksFoxen.png Graphic file (type png)
- <use Photos_For_JSSC/BrooksFoxen.png>
-Package pdftex.def Info: Photos_For_JSSC/BrooksFoxen.png used on input line 711
-.
+<use Photos_For_JSSC/BrooksFoxen.png>
+Package pdftex.def Info: Photos_For_JSSC/BrooksFoxen.png  used on input line 71
+7.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/craiggidney.png, id=441, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/craiggidney.png, id=474, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/craiggidney.png Graphic file (type png)
-
 <use Photos_For_JSSC/craiggidney.png>
-Package pdftex.def Info: Photos_For_JSSC/craiggidney.png used on input line 716
-.
+Package pdftex.def Info: Photos_For_JSSC/craiggidney.png  used on input line 72
+2.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/craiggidney.png Graphic file (type png)
- <use Photos_For_JSSC/craiggidney.png>
-Package pdftex.def Info: Photos_For_JSSC/craiggidney.png used on input line 716
+<use Photos_For_JSSC/craiggidney.png>
+Package pdftex.def Info: Photos_For_JSSC/craiggidney.png  used on input line 72
+2.
+(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
+<Photos_For_JSSC/RobGraff.jpg, id=477, 72.27pt x 90.3375pt>
+File: Photos_For_JSSC/RobGraff.jpg Graphic file (type jpg)
+<use Photos_For_JSSC/RobGraff.jpg>
+Package pdftex.def Info: Photos_For_JSSC/RobGraff.jpg  used on input line 730.
+(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
+File: Photos_For_JSSC/RobGraff.jpg Graphic file (type jpg)
+<use Photos_For_JSSC/RobGraff.jpg>
+Package pdftex.def Info: Photos_For_JSSC/RobGraff.jpg  used on input line 730.
+(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
+<Photos_For_JSSC/PaulKlimov.jpg, id=480, 72.27pt x 90.3375pt>
+File: Photos_For_JSSC/PaulKlimov.jpg Graphic file (type jpg)
+<use Photos_For_JSSC/PaulKlimov.jpg>
+Package pdftex.def Info: Photos_For_JSSC/PaulKlimov.jpg  used on input line 735
 .
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/RobGraff.jpg, id=444, 72.27pt x 90.3375pt>
-File: Photos_For_JSSC/RobGraff.jpg Graphic file (type jpg)
-
-<use Photos_For_JSSC/RobGraff.jpg>
-Package pdftex.def Info: Photos_For_JSSC/RobGraff.jpg used on input line 724.
-(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-File: Photos_For_JSSC/RobGraff.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/RobGraff.jpg>
-Package pdftex.def Info: Photos_For_JSSC/RobGraff.jpg used on input line 724.
-(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/PaulKlimov.jpg, id=447, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/PaulKlimov.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/PaulKlimov.jpg>
-Package pdftex.def Info: Photos_For_JSSC/PaulKlimov.jpg used on input line 729.
-
+Package pdftex.def Info: Photos_For_JSSC/PaulKlimov.jpg  used on input line 735
+.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-File: Photos_For_JSSC/PaulKlimov.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/PaulKlimov.jpg>
-Package pdftex.def Info: Photos_For_JSSC/PaulKlimov.jpg used on input line 729.
-
-(pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/josh.jpg, id=450, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/josh.jpg, id=483, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/josh.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/josh.jpg>
-Package pdftex.def Info: Photos_For_JSSC/josh.jpg used on input line 734.
+Package pdftex.def Info: Photos_For_JSSC/josh.jpg  used on input line 740.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/josh.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/josh.jpg>
-Package pdftex.def Info: Photos_For_JSSC/josh.jpg used on input line 734.
+<use Photos_For_JSSC/josh.jpg>
+Package pdftex.def Info: Photos_For_JSSC/josh.jpg  used on input line 740.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/MattMcEwen.jpg, id=453, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/MattMcEwen.jpg, id=486, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/MattMcEwen.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/MattMcEwen.jpg>
-Package pdftex.def Info: Photos_For_JSSC/MattMcEwen.jpg used on input line 739.
-
+Package pdftex.def Info: Photos_For_JSSC/MattMcEwen.jpg  used on input line 745
+.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/MattMcEwen.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/MattMcEwen.jpg>
-Package pdftex.def Info: Photos_For_JSSC/MattMcEwen.jpg used on input line 739.
-
+<use Photos_For_JSSC/MattMcEwen.jpg>
+Package pdftex.def Info: Photos_For_JSSC/MattMcEwen.jpg  used on input line 745
+.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/matthew.jpg, id=456, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/matthew.jpg, id=489, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/matthew.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/matthew.jpg>
-Package pdftex.def Info: Photos_For_JSSC/matthew.jpg used on input line 745.
+Package pdftex.def Info: Photos_For_JSSC/matthew.jpg  used on input line 751.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/matthew.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/matthew.jpg>
-Package pdftex.def Info: Photos_For_JSSC/matthew.jpg used on input line 745.
+<use Photos_For_JSSC/matthew.jpg>
+Package pdftex.def Info: Photos_For_JSSC/matthew.jpg  used on input line 751.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/charles.jpg, id=459, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/charles.jpg, id=492, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/charles.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/charles.jpg>
-Package pdftex.def Info: Photos_For_JSSC/charles.jpg used on input line 752.
+Package pdftex.def Info: Photos_For_JSSC/charles.jpg  used on input line 758.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/charles.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/charles.jpg>
-Package pdftex.def Info: Photos_For_JSSC/charles.jpg used on input line 752.
+<use Photos_For_JSSC/charles.jpg>
+Package pdftex.def Info: Photos_For_JSSC/charles.jpg  used on input line 758.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/chris.jpg, id=462, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/chris.jpg, id=495, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/chris.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/chris.jpg>
-Package pdftex.def Info: Photos_For_JSSC/chris.jpg used on input line 757.
+Package pdftex.def Info: Photos_For_JSSC/chris.jpg  used on input line 763.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/chris.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/chris.jpg>
-Package pdftex.def Info: Photos_For_JSSC/chris.jpg used on input line 757.
+<use Photos_For_JSSC/chris.jpg>
+Package pdftex.def Info: Photos_For_JSSC/chris.jpg  used on input line 763.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-
-<Photos_For_JSSC/Amit.jpg, id=465, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/Amit.jpg, id=498, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/Amit.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/Amit.jpg>
-Package pdftex.def Info: Photos_For_JSSC/Amit.jpg used on input line 762.
+Package pdftex.def Info: Photos_For_JSSC/Amit.jpg  used on input line 768.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/Amit.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/Amit.jpg>
-Package pdftex.def Info: Photos_For_JSSC/Amit.jpg used on input line 762.
+<use Photos_For_JSSC/Amit.jpg>
+Package pdftex.def Info: Photos_For_JSSC/Amit.jpg  used on input line 768.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
  [18 <./Photos_For_JSSC/BrooksFoxen.png (PNG copy)> <./Photos_For_JSSC/craiggid
 ney.png (PNG copy)> <./Photos_For_JSSC/RobGraff.jpg> <./Photos_For_JSSC/PaulKli
 mov.jpg> <./Photos_For_JSSC/josh.jpg> <./Photos_For_JSSC/MattMcEwen.jpg> <./Pho
 tos_For_JSSC/matthew.jpg> <./Photos_For_JSSC/charles.jpg> <./Photos_For_JSSC/ch
 ris.jpg> <./Photos_For_JSSC/Amit.jpg>]
-<Photos_For_JSSC/Hartmut.jpg, id=481, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/Hartmut.jpg, id=514, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/Hartmut.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/Hartmut.jpg>
-Package pdftex.def Info: Photos_For_JSSC/Hartmut.jpg used on input line 768.
+Package pdftex.def Info: Photos_For_JSSC/Hartmut.jpg  used on input line 774.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/Hartmut.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/Hartmut.jpg>
-Package pdftex.def Info: Photos_For_JSSC/Hartmut.jpg used on input line 768.
+<use Photos_For_JSSC/Hartmut.jpg>
+Package pdftex.def Info: Photos_For_JSSC/Hartmut.jpg  used on input line 774.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
-
-<Photos_For_JSSC/Martinis.jpg, id=484, 72.27pt x 90.3375pt>
+<Photos_For_JSSC/Martinis.jpg, id=517, 72.27pt x 90.3375pt>
 File: Photos_For_JSSC/Martinis.jpg Graphic file (type jpg)
-
 <use Photos_For_JSSC/Martinis.jpg>
-Package pdftex.def Info: Photos_For_JSSC/Martinis.jpg used on input line 775.
+Package pdftex.def Info: Photos_For_JSSC/Martinis.jpg  used on input line 781.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
 File: Photos_For_JSSC/Martinis.jpg Graphic file (type jpg)
- <use Photos_For_JSSC/Martinis.jpg>
-Package pdftex.def Info: Photos_For_JSSC/Martinis.jpg used on input line 775.
+<use Photos_For_JSSC/Martinis.jpg>
+Package pdftex.def Info: Photos_For_JSSC/Martinis.jpg  used on input line 781.
 (pdftex.def)             Requested size: 72.2709pt x 90.33864pt.
  [19
 
  <./Photos_For_JSSC/Hartmut.jpg> <./Photos_For_JSSC/Martinis.jpg>]
 (./Design and Characterization of a 28-nm .aux) ) 
 Here is how much of TeX's memory you used:
- 3604 strings out of 492995
- 59841 string characters out of 6132704
- 130469 words of memory out of 5000000
- 7035 multiletter control sequences out of 15000+600000
+ 3559 strings out of 492616
+ 60119 string characters out of 6129482
+ 132301 words of memory out of 5000000
+ 7354 multiletter control sequences out of 15000+600000
  51229 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,13n,38p,2277b,323s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf
--dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/euler/eu
-sm10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Design and Characterization of a 28-nm .pdf" (19 pages, 8417
-824 bytes).
+ 41i,10n,38p,2277b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf
+-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2019/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr5.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/euler/eu
+sm10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/loca
+l/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/
+2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "Design and Characterization of a 28-nm .pdf" (19 pages, 8476
+027 bytes).
 PDF statistics:
- 551 PDF objects out of 1000 (max. 8388607)
- 299 compressed objects within 3 object streams
+ 585 PDF objects out of 1000 (max. 8388607)
+ 320 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 645 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 660 words of extra memory for PDF output out of 10000 (max. 10000000)
 

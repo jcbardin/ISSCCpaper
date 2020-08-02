@@ -136,7 +136,7 @@ Ideally, the anharmonicity (or qubit nonlinearity) would be as large as possible
 
 
 %The resonator frequency depends on the state of the qubit - \omega_{r,|0>} when the qubit is in |0) and \omega_{r,|1>} when the qubit is in |1). If the resonator is driven in between \omega_{r,|0>} and \omega_{r,|1>}, the phase of the reflected signal depends on the qubit state.
-\CR{The Z drive port provides control of the qubit frequency via an externally applied current. This enables several important operations: control of the qubit frequency~\cite{majer2007coupling}, two-qubit interactions (by bringing close in frequency)~\cite{martinis2014fast}, and qubit initialization~\cite{chen2018metrology}. In the context of this paper, we use the Z line to set the qubit frequency and perform initialization. }
+\CR{The Z drive port provides control of the qubit frequency via an externally applied current. This enables several important operations: control of the qubit frequency~\cite{majer2007coupling}, two-qubit interactions (by bringing the qubits close in frequency)~\cite{martinis2014fast}, and qubit initialization~\cite{chen2018metrology}. In the context of this paper, we use the Z line to set the qubit frequency and perform initialization. }
 
 A projective measurement of the transmon state can be accomplished through a reflection~\CR{\cite{PhysRevLett.94.123602} or transmission~\cite{blais2004cavity}} measurement of an ancillary linear resonator that is capacitively coupled to the qubit (see Fig.~\ref{XMON}). The coupling between the readout resonator and the qubit will cause a dispersive frequency shift of the readout resonator up or down in frequency if the qubit collapses to its $|0\rangle$ or $|1\rangle$ state, respectively. If the readout resonator is interrogated at the average of these two frequencies, the dispersive frequency shift will produce a state-dependent phase shift on the interrogation signal, which can be detected and used to determine the state of the qubit.
 \subsection{XY Control of a Transmon}\label{xmon_control}
@@ -201,7 +201,7 @@ A more tractable solution is to thermalize the control electronics in the range 
 \subsection{Power Consumption}
 While much higher than at 10\,mK, the power handling capability of the 4\,K stage of a typical closed-cycle refrigeration system is still limited.  For near-term systems, which will employ standard pulse-tube cryocoolers, the total dissipation at 4\,K will be limited to just 2\,W at 4\,K~\cite{cryomech}. As this power budget must include any thermal load associated with cabling, the actual power available for electronic consumption is lower. As such, a reasonable near term power budget for the control and readout electronics is 1\,W.
 
-For a scaled system, one could envision building a much larger refrigerator and employing more advanced cooling techniques. For instance, helium \CR{refrigeration systems} can be used to increase the capacity to around  1\,kW~\CR{\cite{linde}}, or  about 1\,mW/qubit at the million qubit level. As this power consumption must be shared between any incoming cabling (from 300\,K), Z-control electronics, and the readout electronics (which can be multiplexed by 5-10x), a reasonable long term limit for the dissipation of the \CR{XY} control electronics is 250\,$\mu$W per qubit. For this proof of concept work, which is being carried out without cryogenic simulation models, we relax this specification by a factor of ten to 2.5\,mW, with the expectation that the power consumption can be further optimized in a future design. 
+For a scaled system, one could envision building a much larger refrigerator and employing more advanced cooling techniques. For instance, helium \CR{refrigeration systems} can be used to increase the capacity to around  1\,kW at 4\,K~\CR{\cite{linde}}, or  about 1\,mW/qubit at the million qubit level. As this power consumption must be shared between any incoming cabling (from 300\,K), Z-control electronics, and the readout electronics (which can be multiplexed by 5-10x), a reasonable long term limit for the dissipation of the \CR{XY} control electronics is 250\,$\mu$W per qubit. For this proof of concept work, which is being carried out without cryogenic simulation models, we relax this specification by a factor of ten to 2.5\,mW, with the expectation that the power consumption can be further optimized in a future design. 
 \subsection{Frequency Range}
 Typical transmon qubits have transition frequencies in the 4--8\,GHz frequency range. As such, we seek to cover this full band with our initial prototype device. However, it may be desirable for a future device to only operate over some sub-set of this frequency range.
 \subsection{Gate Fidelity and Error Rates}
@@ -227,7 +227,7 @@ where $\Delta{f}=f_\text{0}/Q_\text{D}$, $Q_\text{D}=\left(C_\text{Q}/C_\text{D}
 %\end{equation}
 %As such, it is desirable to 
 \subsection{Spectral Content}
-Also related to gate fidelity is the spectral content of the qubit drive signal. Due to the finite coherence time of a qubit (on the order of 10-to-100\,$\mu$s for transmon qubits) fast gates are desired. However, due to the finite separation between the $\omega_\text{01}$ and $\omega_\text{12}$ transition frequencies, it is important to ensure that the drive signal does not introduce leakage to higher order levels. \CR{Errors due to spectral leakage can be estimated as the ratio of energy in a pulse at the undesired transition to that at the qubit frequency~\cite{steffen2003accurate}. Reducing this error rate to $10^{-5}$ requires suppressing energy at the $\omega_\text{12}$ transition by 50\,dB. As such, one has to carefully balance the trade-off between speed and leakage when selecting pulse waveforms}. Typical pulse envelopes include Gaussian and raised cosine shapes and advanced techniques such as derivative removal by adiabatic gate (DRAG) are used regularly to further reduce the pulse duration beyond what can be achieved using envelope shaping alone~\cite{motzoi2009simple,gambetta2011analytic}. In this work, we limit our pulse generation capabilities to simple symmetric pulses without derivative compensation. 
+Also related to gate fidelity is the spectral content of the qubit drive signal. Due to the finite coherence time of a qubit (on the order of 10-to-100\,$\mu$s for transmon qubits) fast gates are desired. However, due to the finite separation between the $\omega_\text{01}$ and $\omega_\text{12}$ transition frequencies, it is important to ensure that the drive signal does not introduce leakage to higher order levels. \CR{Errors due to spectral leakage can be estimated as the ratio of energy in a pulse at the undesired transition to that at the qubit frequency~\cite{steffen2003accurate}. Reducing this error rate to $10^{-5}$ requires suppressing the relative energy at the $\omega_\text{12}$ transition by 50\,dB. As such, one has to carefully balance the trade-off between speed and leakage when selecting pulse waveforms}. Typical pulse envelopes include Gaussian and raised cosine shapes and advanced techniques such as derivative removal by adiabatic gate (DRAG) are used regularly to further reduce the pulse duration beyond what can be achieved using envelope shaping alone~\cite{motzoi2009simple,gambetta2011analytic}. In this work, we limit our pulse generation capabilities to simple symmetric pulses without derivative compensation. 
 %\cite{twostatemartinis}
 
 
@@ -268,14 +268,16 @@ For small phase errors, it can be shown that the worst case average error rate w
 \begin{table*}
 \begin{center}
 \caption{Key specifications for cryogenic XY controller}\label{perfspecs}
-\begin{tabular}{lrrrrrrrrr}
-\toprule
-&Amb. Temp.&RF Frequency&Envelope&Env. Amp&Pulse Duration&Amp. err.&Phase err&Inst. Set&AC+DC Power\\
-\midrule
-Prototype Goal&\CR{3}\,K&4-to-8\,GHz&Symmetric&$>$10\,mV&10-to-30\,ns&$<0.15\%$ &\CR{$<0.22^\circ$}&16 (4-bit)&$<$2.50\,mW\\
-Long-term Goal&\CR{3-to-4.2\,K}&TBD&DRAG&$>1\,$mV&$<$10\,ns&$<0.15\%$&\CR{$<0.22^\circ$}&TBD&$<$250\,$\mu$W\\
-\bottomrule
-\end{tabular}
+\includegraphics[width=2.1\columnwidth]{Figures/table_1}
+%\begin{tabular}{lrrrrrrrrr}
+%\toprule
+%&Amb. Temp.&RF Frequency&Envelope&Env. Amp&Pulse Duration&Amp. err.&Phase err&Inst. Set&AC+DC Power\\
+%\midrule
+%Prototype Goal&\CR{3}\,K&4-to-8\,GHz&Symmetric&$>$10\,mV&10-to-30\,ns&$<0.15\%$ &\CR{$<0.22^\circ$}&16 (4-bit)&$<$2.50\,mW\\
+%Long-term Goal&\CR{3-to-4.2\,K}&TBD&DRAG&$>1\,$mV&$<$10\,ns&$<0.15\%$&\CR{$<0.22^\circ$}&TBD&$<$250\,$\mu$W\\
+%\bottomrule
+%\end{tabular}
+
 \end{center}
 \end{table*}
 
@@ -305,7 +307,7 @@ where $P_\text{L}\left\{|1\rangle\right\}$ is the initialization error due to le
 
 
 \subsection{Summary}
-The performance specifications of the XY controller are summarized in Table~\ref{perfspecs}. \CR{It should be noted that a 16-word instruction set has been selected in order to permit the definition of rotations of $\pm{}90^\circ$ and $\pm{}180^\circ$ about the X and Y \CG{axes} as well as to leave space to define a small set of all-microwave Z-gates (rotations about the Z-axis, realized by combining XY gates)}. 
+The performance specifications of the XY controller are summarized in Table~\ref{perfspecs}. \CR{It should be noted that a 16-word instruction set has been selected in order to permit the definition of rotations of $\pm{}90^\circ$ and $\pm{}180^\circ$ about the X and Y axes as well as to leave space to define a small set of all-microwave Z-gates (rotations about the Z-axis, realized by combining XY gates)}. 
 
 % The degree of these effects depends upon the idle state Hamiltonian of the driven qubit, as expressed in the rotating frame, referenced to the leakage frequency\footnote{This is equivalent to a baseband representation, with respect to }
 %\begin{equation}
@@ -330,7 +332,7 @@ The performance specifications of the XY controller are summarized in Table~\ref
 A conceptual block diagram explaining the waveform generation approach appears in Fig.~\ref{Concept}. A vector modulation based architecture has been chosen to enable simultaneous control of the envelope amplitude and carrier phase. Symmetric envelopes are generated using an array of current sources which are sequentially enabled and disabled with the appropriate timing to generate a symmetric staircase of current, as shown in Fig.~\ref{Concept}. The current waveform is then lowpass-filtered to create a smooth envelope. By controlling the individual weights of each of the current-mode sub-DACs, a wide range of symmetric envelopes can be realized. After lowpass filtering, the envelope currents pass through a polarity switch, are up-converted to the carrier frequency, and the two quadratures are then combined to create the output pulse. 
 
 
-This architecture has been chosen as a trade-off between power consumption, performance, and robustness to the inherent uncertainty associated with designing for operation at 3-K, where foundry design models are currently unavailable. Several research groups are currently investigating the cryogenic performance of nanometer CMOS technology (e.g.,~\cite{incandela2018characterization,beckers2018characterization}) and it is known that threshold voltages, transconductances, and subthreshold \CR{swing} all change with cryogenic cooling. Unfortunately, mismatch is also degraded, particularly in the sub-threshold regime~\cite{mismatch}. A critical feature of the envelope generation approach is guaranteed monotonicity, even if the sub-DACs display non-linearity or non-monotonicity.
+This architecture has been chosen as a trade-off between power consumption, performance, and robustness to the inherent uncertainty associated with designing for operation at 3-K, where foundry design models are currently unavailable. Several research groups are currently investigating the cryogenic performance of nanometer CMOS technology (e.g.,~\cite{incandela2018characterization,beckers2018characterization}) and it is known that threshold voltages, transconductances, and subthreshold \CR{swing} all change with cryogenic cooling. Unfortunately, mismatch is also degraded, particularly in the sub-threshold regime~\cite{mismatch}. A critical feature of the envelope generation approach is guaranteed monotonicity, even if the individual sub-DACs display non-linearity or non-monotonicity.
 
 A block diagram of the implemented IC appears in Fig.~\ref{chipbd}. The circuit consists of a pair of baseband envelope DACs, which drive a vector modulator. The clock port of the DACs and the LO ports of the vector modulator are buffered to minimize the external RF power required to drive the chip. A small digital memory is incorporated to store configuration parameters and implement a rudimentary 4-bit (\CR{16 word}) XY instruction set. By integrating such an instruction set on-chip, the overall digital I/O rate required to operate the chip is greatly reduced, thereby resulting in a significant savings in power and system complexity. A trigger line is included to initialize a pulse.
 \begin{figure}[bt!]
@@ -343,12 +345,12 @@ A block diagram of the implemented IC appears in Fig.~\ref{chipbd}. The circuit 
 \label{EnvD}
 \end{figure}
 
-A schematic diagram of one of the envelope DACs appears in Fig.~\ref{EnvD}. The circuit contains a bank of eleven 8-bit current-mode sub-DACs, whose outputs are combined in the current domain and lowpass filtered before being fed to the modulator stage. Each DAC is constructed using a binary-weighted current mirror circuit, with the smallest unit cell being a minimum feature-size transistor. While linearity and monotonicity could be improved by using larger transistors and thermometer coding, respectively, these properties were sacrificed to reduce dynamic power consumption. \CR{A switched current mirror architecture was selected over a current steering one to reduce static power consumption.} The bank of DACs share a common reference current ($I_\text{N}$), \CR{generated by an 8-bit reference DAC implemented as a binary weighted current mirror}. \CR{The reference DAC is} biased from a current source ($I_\text{P}$) which has an additional 6-bits of reconfigurability. The configuration bits for each of the sub-DACs as well as \CR{the reference DAC (generating} $I_\text{N}$) are configured by the sixteen-waveform configuration memory, with the desired waveform  selected by the 4-bit instruction interface ($\mathrm{SEL<0:3>}$). %{\color{red}line here about extra bits}
+A schematic diagram of one of the envelope DACs appears in Fig.~\ref{EnvD}. The circuit contains a bank of eleven 8-bit current-mode sub-DACs, whose outputs are combined in the current domain and lowpass filtered before being fed to the modulator stage. Each DAC is constructed using a binary-weighted current mirror circuit, with the smallest unit cell being a minimum feature-size transistor. While linearity and monotonicity could be improved by using larger transistors and thermometer coding, respectively, these properties were sacrificed to reduce dynamic power consumption. \CR{A switched current mirror architecture was selected over a current steering one to reduce static power consumption.} The bank of DACs share a common reference current ($I_\text{N}$), \CR{generated by an 8-bit reference DAC implemented as a binary-weighted current mirror}. \CR{The reference DAC is} biased from a current source ($I_\text{P}$) which has an additional 6-bits of reconfigurability. The configuration bits for each of the sub-DACs as well as \CR{the reference DAC (generating} $I_\text{N}$) are configured by the sixteen-waveform configuration memory, with the desired waveform  selected by the 4-bit instruction interface ($\mathrm{SEL<0:3>}$). %{\color{red}line here about extra bits}
 
 
-A current waveform of the form shown in Fig.~\ref{Concept} is generated by enabling each of the 11 current sources in the appropriate sequence. The  enable signals for this operation are generated by the pulse controller shown in Fig.~\ref{EnvD}. The pulse controller is a shift-register based design in which the enable signal propagates through the shift register after a trigger pulse has been detected. To minimize the power consumption of this block, the clock signal is gated such that each flip-flop is only clocked if its output is \CR{scheduled} to transition during a given clock cycle. \CR{The controller produces pulses that are 21 clock cycles long. The circuitry was implemented using a mixture of custom and standard cell components and, to enable pulses as short as 10\,ns, it was optimized to operate at clock frequencies up to 2.1\,GHz. The output of each current-mode DAC is filtered using by a simple RC network that also serves to terminate the IF port of the RF mixer. This network consists of a 500\,$\Omega$ resistor in parallel with a 4-bit binary-weighted capacitor bank with an aggregate capacitance of 9\,pF (enabling cutoff frequencies as low as 35\,MHz).} %The controller was designed to accept clock signals in excess of 2\,GHz and produces pulses that are 21 clock cycles long.     
+A current waveform of the form shown in Fig.~\ref{Concept} is generated by enabling each of the eleven current sources in the appropriate sequence. The  enable signals for this operation are generated by the pulse controller shown in Fig.~\ref{EnvD}. The pulse controller is a shift-register based design in which the enable signal propagates through the shift register after a trigger pulse has been detected. To minimize the power consumption of this block, the clock signal is gated such that each flip-flop is only clocked if its output is \CR{scheduled} to transition during a given clock cycle. \CR{The controller produces pulses that are 21 clock cycles long. The circuitry was implemented using a mixture of custom and standard cell components and, to enable pulses as short as 10\,ns, it was optimized to operate at clock frequencies up to 2.1\,GHz. The output of each current-mode DAC is filtered using by a simple RC network that also serves to terminate the IF port of the RF mixer. This network consists of a 500\,$\Omega$ resistor in parallel with a 4-bit binary-weighted capacitor bank with an aggregate capacitance of 9\,pF (enabling cutoff frequencies as low as 35\,MHz).} %The controller was designed to accept clock signals in excess of 2\,GHz and produces pulses that are 21 clock cycles long.     
 
-A schematic diagram of the passive-mixer-based vector modulator appears in Fig.~\ref{vectormod}. A passive mixer has been selected to avoid introducing noise of a non-thermal nature during the mixing process and the circuit has been designed as a trade-off between power consumption and \CR{frequency coverage}. Each LO signal is transformer-coupled to a fully differential gain block which helps to improve common-mode rejection.  The differential output of this cell is further amplified by a standard-cell based pseudo-differential amplifier chain that is sized to drive the mixer \CR{at digital levels. The switching transistors were each implemented as a single $4\times\,1\,\mu$m$\,\times\,30\,$nm transistor. This sizing was chosen as a trade-off between on-resistance (60~$\Omega$) and gate-capacitance (3.5\,fF), as simulated using the room temperature PDK models.} \CR{A 4-bit capacitor bank is incorporated on the pad-side of each input transformer to enable optimum coupling over the 4--8\,GHz frequency range.} \CR{The LO paths were optimized to be driven with LO signals below 50\,$\mu$W and  simulation using room-temperature models predicts a jitter contribution of less than 100\,fs (integrated from 50\,kHz to 50\,MHz), corresponding to a phase error contribution below $0.22^\circ$ RMS for a 5.6\,GHz LO. As this is dominated by the broadband noise floor, the jitter contribution is expected to be significantly lower when the device is operated at cryogenic temperatures}. 
+A schematic diagram of the passive-mixer-based vector modulator appears in Fig.~\ref{vectormod}. A passive mixer has been selected to avoid introducing noise of a non-thermal nature during the mixing process and the circuit has been designed as a trade-off between power consumption and \CR{frequency coverage}. Each LO signal is transformer-coupled to a fully differential gain block which helps to improve common-mode rejection.  The differential output of this cell is further amplified by a standard-cell based pseudo-differential amplifier chain that is sized to drive the mixer \CR{at digital levels. The switching transistors were each implemented as a single $4\times\,1\,\mu$m$\,\times\,30\,$nm transistor. This sizing was chosen as a trade-off between on-resistance (60~$\Omega$) and gate-capacitance (3.5\,fF), as simulated using room temperature PDK models.} \CR{A 4-bit capacitor bank is incorporated on the pad-side of each input transformer to enable optimum coupling over the 4--8\,GHz frequency range.} \CR{The LO paths were optimized to be driven with LO signals below 50\,$\mu$W and  simulation using room-temperature models predicts a jitter contribution of less than 100\,fs (integrated from 50\,kHz to 50\,MHz), corresponding to a phase error contribution below $0.22^\circ$ RMS for a 5.6\,GHz LO. As this is dominated by the broadband noise floor, the jitter contribution is expected to be significantly lower when the device is operated at cryogenic temperatures}. 
 \begin{figure}[bt!] 
 \includegraphics[width=\columnwidth]{Figures/FIGURE_10}
 \caption{Schematic diagram of the vector modulator.}\label{vectormod}
@@ -388,7 +390,7 @@ The pulse modulator was implemented in a 28-nm CMOS process and a die photo appe
 
 
 
-Prior to characterizing the IC, we first performed baseline measurements of test structures for each of the different transistor flavors that are available in the 28-nm CMOS process. These measurements were carried out to ensure that the temperature dependence of devices with different doping profiles and polarities is similar to that previously reported for a single minimum-length 28-nm NMOS device~\cite{beckers2018characterization}. Measurements were carried-out on\CR{-}wafer at 300 and 7\,K,\footnote{\CR{These measurements were made with a Lakeshore CRX-4K cryogenic probe station, which can reach 5.5\,K when the heat load is minimized. Here, we selected an ambient temperature of 7\,K to ensure the base temperature could be maintained across all measurements. It is expected that the performance at 7\,K is indicative to that at 3\,K, as the terminal characteristics change little in this range.}} and key parameters such as threshold voltage, sub-threshold \CR{swing}, extrinsic transconductance ($G_\text{m}$), and unity current gain cutoff frequency ($f_\text{t}$) were extracted and display similar trends among the different device families. On average, the threshold voltages increased by a factor of 40\% whereas the sub-threshold \CR{swing}, extrinsic transconductance, and unity current gain cutoff frequency improved by factors of 4.6, 2, and 1.8, respectively. \CR{These values are consistent with previously observed values for a variety of nanometer technologies\footnote{\CR{To the best of our knowledge, data describing the temperature dependence of $f_\text{t}$ of a nanometer-scale MOSFET biased at a fixed current are not available in the literature. However, based upon the results in~\cite{coskun2014cryogenic}, an increase in $f_\text{t}$ of approximately 75\% is expected with cryogenic cooling.}}~\cite{beckers2018characterization,IEDM_CHARBON,beckers_GM,coskun2014cryogenic}}. Here, the small-signal metrics are specified at a current density of 10\,mA/mm. It is interesting to note that \CR{most} changes \CR{were found to be} consistent for both PMOS and NMOS devices. The full set of extracted parameters is provided in Table~\ref{transistors} of the Appendix. 
+Prior to characterizing the IC, we first performed baseline measurements of test structures for each of the different transistor flavors that are available in the 28-nm CMOS process. These measurements were carried out to ensure that the temperature dependence of devices with different doping profiles and polarities is similar to that previously reported for a single minimum-length 28-nm NMOS device~\cite{beckers2018characterization}. Measurements were carried-out on\CR{-}wafer at 300 and 7\,K,\footnote{\CR{These measurements were made with a Lakeshore CRX-4K cryogenic probe station, which can reach 5.5\,K when the heat load is minimized. Here, we selected an ambient temperature of 7\,K to ensure the base temperature could be maintained across all measurements. It is expected that the performance at 7\,K is indicative of that at 3\,K, as the terminal characteristics change little in this range.}} and key parameters such as threshold voltage, sub-threshold \CR{swing}, extrinsic transconductance ($G_\text{m}$), and unity current gain cutoff frequency ($f_\text{t}$) were extracted and display similar trends among the different device families. On average, the threshold voltages increased by a factor of 40\% whereas the sub-threshold \CR{swing}, extrinsic transconductance, and unity current gain cutoff frequency improved by factors of 4.6, 2, and 1.8, respectively. \CR{These values are consistent with previously observed values for a variety of nanometer technologies\footnote{\CR{To the best of our knowledge, data describing the temperature dependence of $f_\text{t}$ of a nanometer-scale MOSFET biased at a fixed current are not available in the literature. However, based upon the results in~\cite{coskun2014cryogenic}, an increase in $f_\text{t}$ of approximately 75\% is expected with cryogenic cooling.}}~\cite{beckers2018characterization,IEDM_CHARBON,beckers_GM,coskun2014cryogenic}}. Here, the small-signal metrics are specified at a current density of 10\,mA/mm. It is interesting to note that \CR{most} changes \CR{were found to be} consistent for both PMOS and NMOS devices. The full set of extracted parameters is provided in Table~\ref{transistors} of the Appendix. 
 %\subsection{Quantum Control Ex periments}
 
 After evaluating the transistor performance, the low-temperature operation of the chip was evaluated through a series of quantum control experiments. To facilitate these measurements, the packaged IC was mounted on the 3-K stage of a commercial dilution refrigerator and interfaced to a qubit mounted on the 10\,mK stage of the system. The qubit employed for this experiment was a transmon that is part of a 5-qubit processor and is characterized by an anharmonicity parameter, $\eta/2\pi\approx-330\,$MHz. For all measurements, the other four qubits were tuned to be as far away in frequency as possible so as to make their presence inconsequential.
@@ -397,7 +399,7 @@ A detailed block diagram of the test setup appears in Fig.~\ref{setup}. The modu
 
 The LO signal was split at room temperature to enable feed-forward cancellation of LO leakage to the RF output port of the cryo-CMOS IC module. Vector modulation of the leakage cancellation tone was achieved using a digital step attenuator followed by a digital phase shifter. The amplitude and phase shifted cancellation signal was then combined with the RF output of the IC using a 20-dB coupler, mounted on the 3-K stage of the cryostat.  In concert with a power combiner added after the phase shifter, this coupler also provided a mechanism to inject a standard XY control signal, thereby enabling baseline measurements.
 
-A second 20-dB coupler was employed at the 3-K stage to couple a small fraction of the RF output back to room temperature. This weak monitor signal was further amplified by approximately 50\,dB, such that it could be viewed on an oscilloscope for debugging purposes. 
+A second 20-dB coupler was employed at the 3-K stage to couple a small fraction of the RF output back to room temperature. This weak monitor signal was further amplified by approximately 50\,dB, such that it could be viewed on an oscilloscope or spectrum analyzer for debugging purposes. 
 
 Finally, the RF output was attenuated by 40\,dB and connected to the XY port of the qubit. The Z and readout terminals of the qubit were connected to standard Z and readout electronics chains to complete the analog portion of the measurement setup. 
 
@@ -408,14 +410,15 @@ Once the setup was complete, the system was cooled to base temperature. The qubi
 \subsection{Preliminary Room Temperature Measurements}
 Prior to cooling the system down, a set of measurements were carried out to ensure that the \CR{basic operation of the CMOS IC was as expected}. For these measurements, a coaxial cable was connected directly to the output of the module and the performance was monitored both on an oscilloscope and a spectrum analyzer.  %The circuit was found to be operational for clock and LO signals in the range of 0.5-to-3\,GHz and 4-to-8\,GHz, respectively. 
 \CR{The circuit was found to be operational for clock frequencies up to 3\,GHz and LO frequencies from 4-to-8\,GHz.} The power required to drive the inputs of the clock and LO hybrids was less than $-20\,$dBm at 2\,GHz and $-10\,$dBm at 5.6\,GHz, respectively.  Example time-domain waveforms appear in Fig.~\ref{timedomain}. For this measurement, the waveform memory was initialized with a set of sixteen different waveforms and the select lines were used to rotate between these different instructions. \CR{The clock and carrier frequencies were set to 2.0 and 5.6\,GHz, respectively}.
-
-\subsection{LO Leakage Cancellation} %As the integrated quantum controller employs a direct conversion architecture, any local oscillator leakage that couples to the RF output will be at the qubit drive frequency. As described in Section~\ref{ONOFF}, such leakage will both limit gate fidelity and lead to initialization errors. 
-Once the \CR{dilution refrigerator} reached base temperature, we first minimized the LO leakage using the \CR{nulling} path shown in Fig.~\ref{setup}.  The qubit was first initialized to the ground state and then allowed to idle for a period, $\tau$, before its state was measured. The magnitude and phase of the cancellation tone were then varied to minimize the measured $|1\rangle$ state population.  The resolution employed for amplitude and phase control was 0.25\,dB and 1$^\circ$, respectively\footnote{It may seem like a more direct approach one could take to null the LO feed through is to look at it on a spectrum analyzer, taking advantage of the monitor port that we have built into our test setup. However, we found that this was actually an ineffective method that did not produce nominal settings. We believe this is either due to the finite directivity of the directional coupler or secondary paths through which the LO signal leaked to the spectrum analyzer.}. We found that the nominal settings depended strongly on the impedances presented by the LO and RF ports of the IC (which could be varied through the transformer tuning capacitors). However, we also determined that these values were repeatable and stable on timescales of several days. As such, it appears feasible to implement leakage nulling in a future version of the chip.
-
 \begin{figure}[bt!]
 \includegraphics[width=\columnwidth]{Figures/FIGURE_13}
 \caption{Example time domain trigger (top) and pulse (bottom) waveforms, measured at 300\,K. The chip was initialized with sixteen different waveforms and stepped through using the select lines. For these measuremenst, the chip was driven with a 2\,GHz sample clock. A cable loss of approximately 5~dB has not been de-embedded from the measurement results.} \label{timedomain}
 \end{figure}
+
+\subsection{LO Leakage Cancellation} %As the integrated quantum controller employs a direct conversion architecture, any local oscillator leakage that couples to the RF output will be at the qubit drive frequency. As described in Section~\ref{ONOFF}, such leakage will both limit gate fidelity and lead to initialization errors. 
+Once the \CR{dilution refrigerator} reached base temperature, we first minimized the LO leakage using the \CR{nulling} path shown in Fig.~\ref{setup}.  The qubit was first initialized to the ground state and then allowed to idle for a period, $\tau$, before its state was measured. The magnitude and phase of the cancellation tone were then varied to minimize the measured $|1\rangle$ state population.  The resolution employed for amplitude and phase control was 0.25\,dB and 1$^\circ$, respectively\footnote{It may seem like a more direct approach one could take to null the LO feedthrough is to look at it on a spectrum analyzer, taking advantage of the monitor port that we have built into our test setup. However, we found that this was actually an ineffective method that did not produce nominal settings. We believe this is either due to the finite directivity of the directional coupler or secondary paths through which the LO signal leaked to the spectrum analyzer.}. We found that the nominal settings depended strongly on the impedances presented by the LO and RF ports of the IC (which could be varied through the transformer tuning capacitors). However, we also determined that these values were repeatable and stable on timescales of several days. As such, it appears feasible to implement leakage nulling in a future version of the chip.
+
+
 \begin{figure}[bt!]
 \includegraphics[width=\columnwidth]{Figures/FIGURE_14}
 \caption{Effect of local oscillator feedthrough. (a) When the LO cancellation circuit is off, the qubit is driven by the LO leakage. (b) With the LO cancellation circuit on, nearly all $|1\rangle$ state population is supressed. }\label{LOONOFF}
@@ -423,30 +426,16 @@ Once the \CR{dilution refrigerator} reached base temperature, we first minimized
 Example results in which the cancellation is turned OFF and ON are shown in Fig.~\ref{LOONOFF}. For these measurements, the qubit was tuned to 5.65\,GHz. With the cancellation disabled, Rabi oscillations were observed with a period of approximately 300\,ns. \CR{This implies a 26\,dB ON/OFF ratio, assuming raised-cosine pulses of 15\,ns in duration are employed}. \CR{This modest ON/OFF ratio is likely explained by  the  close proximity of the RF and LO wirebonds (see Fig.~\ref{diephoto}(b)) as well as finite LO-IF isolation in the mixers}. 
 On the other hand, with the cancellation enabled, we found that the LO leakage was reduced to the level that a $|1\rangle$ population of less than 4\% was observed after 20\,$\mu$s of idling. This level of unintended drive is  acceptable, as it corresponds to an error of less than \CR{0.001\%} on the timescale of a gate operation. 
 
-\subsection{Amplitude Control}(controlled by $I_\text{P}$)
+\subsection{Amplitude Control}
 Next, we preformed a Rabi oscillation experiment in order to evaluate the feasibility of deterministically inducing XY rotations using the CMOS IC. The protocol for this experiment\CR{---}described in Fig.~\ref{rabisingle}(a) and~\ref{rabisingle}(b)\CR{---}was to initialize the qubit to the $|0\rangle$ state, excite it with a raised cosine pulse of \CR{21\,ns} in duration, and then measure the qubit state. \CR{At each point, 5,000 state statistics were recorded to enable the estimation of state probabilities. For simplicity, these measurements were carried-out with only one of the two quadratures enabled.}
 
 %The experiment was repeated for a wide range of envelope amplitudes and 5,000 statistics were taken for each setting. 
-
-\CR{The Rabi amplitude experiment was conducted in two different manners. First, the amplitude was varied by sweeping the DAC reference current ($I_\text{N}$) through its full 8-bit range while fixing the sub-DAC settings for a maximum-amplitude raised-cosine envelope. Next, the experiment was repeated with the DAC reference current fixed in the middle of its range and a scaling factor---swept from 0-to-1---applied to all of the sub-DACs to generate a nominally raised cosine envelope of varying amplitude.  In both experiments, the full scale of the reference DAC was set to the middle of its range (by setting $I_\text{P}$ appropriately). Example Rabi oscillations for each experiment appear in Figs.~\ref{cal}(a) and \ref{cal}(b). In both cases, non-monotonicity and nonlinearity was observed, but this non-ideal behavior was found to be  much stronger when the reference DAC was used to vary the pulse amplitude.}  
-
-%While the measured statistics would nominally be plotted against the programmed envelope amplitude setting, we found that the DACs were both non-monotonic and nonlinear when operated at cryogenic temperatures. 
-
-\CR{To understand this behavior and create calibrated Rabi oscillation curves, we next measured the relative pulse amplitude as a function of configuration settings using a spectrum analyzer connected to the monitor port (see Fig.~\ref{setup}). Representative curves for the same conditions used to obtain Figs.~\ref{cal}(a) and \ref{cal}(b) appear in Figs.~\ref{cal}(c) and ~\ref{cal}(d), respectively. Significant non-linearity and non-monotonicity was observed when the reference DAC current was employed to vary the pulse amplitude. This behavior may be related to a combination of the sub-threshold operation of the reference DAC, the small transistor sizing, the lack of thermometer coding,  the relatively low impedance associated with the (non-cascoded) current mirror employed here, and/or leakage in the PMOS current mirror circuit. On the other hand, the measured pulse amplitude was found to be far more linear as a function of the scaled reference sub-DAC amplitudes (see Fig.~\ref{cal}(d)). This could be due to the fact that the sub-DACs were operated more into the saturation regime in comparison to the reference DAC.}
-
-%A representative plot of the measured envelope amplitude as a function of the reference DAC setting appears in Fig.~\ref{cal}(a). For this measurement, the sub-DACs were programmed to produce a nominally raised cosine envelope and the current, $I_\text{P}$, driving the reference DAC was set towards the middle of its range. Significant non-linearity and non-monotonicity was observed. This behavior may be related to a combination of the sub-threshold operation of the reference DAC, small transistor sizing, lack of thermometer coding, and the relatively low impedance associated with the (non-cascoded) current mirror employed here.
-
-%We also considered varying the pulse amplitude by scaling the weights of each of the eleven sub-DACs. The measured pulse amplitude is plotted as a function of relative envelope amplitude in Fig.~\ref{cal}(b). The results still display nonlinearity and non-monotonicity, but to a much lesser extent than in the case where the reference amplitude was swept. This is likely due to the fact that the sub-DACs were operated further into the saturation regime and thus were less sensitive to mismatch effects.} %As such, we made an independent measurement of the pulse amplitude as a function of digital setting by using a spectrum analyzer to measure an amplified version of the signal at the monitor port (see Fig.~\ref{setup}). %\CR{Example calibration curves appear in Fig.~\ref{xx}.}
-
-%\CR{Figs.~\ref{cal}(c) and \ref{cal}(d) show the measured Rabi oscillations corresponding to the reference DAC and envelope amplitude sweeps described above. Each point represents the average of 5,000 measurements. The curves were found to be repeatable and agree well with expectation, based upon the curves shown in Fig.~\ref{cal}(a) and \ref{cal}(b).} 
-
 \begin{figure}[bt!]
 \includegraphics[width=\columnwidth]{Figures/FIGURE_15}
 \caption{\CR{Rabi oscillation experiment protocols. (a) Experimental protocol and (b) Bloch sphere trajectory for single-pulse Rabi oscillation experiment. (c) Experimental protocol and (d) Bloch sphere trajectory for two-pulse Rabi experiment. All pulses had a duration of 21\,ns.}}\label{rabisingle}
 \end{figure}
 
-%\CR{A calibrated Rabi oscillation curve appears in Fig.~\ref{rabidual}(a). For this measurement, the envelope settings ($I_\text{1}$--$I_\text{11}$) were programmed to provide a nominally raised-cosine envelope waveform and the amplitude was varied by stepping the DAC reference current ($I_\text{N}$) through its full 8-bit range. 5,000 statistics were collected at each point and sweeps were carried out for eleven different values of the reference current supplying the amplitude DAC ($I_\text{P}$).}  
-\CR{With the envelope amplitudes characterized, we next generated calibrated Rabi oscillation curves, an example of which appears in Fig.~\ref{rabidual}(a).}  The data reported on this figure were acquired by  sweeping the DAC reference current ($I_\text{N}$) through \CR{its full 8-bit range} for eleven different \CR{full-scale values, set by adjusting the reference current, $I_\text{P}$}. Data \CR{are} not shown for x-axis values below 0.22 since there was insufficient SNR to measure the envelope amplitude using the spectrum analyzer. The results in Fig.\CR{~\ref{rabidual}(a)} show the expected behavior: the maxima of the $|0\rangle$ and $|1\rangle$ state probabilities are consistent with separately measured $|0\rangle$ and $|1\rangle$ state readout error rates of 2.4\% and 6.8\%, respectively.
+\CR{The Rabi amplitude experiment was conducted in two different manners. First, the amplitude was varied by sweeping the DAC reference current ($I_\text{N}$) through its full 8-bit range while fixing the sub-DAC settings for a maximum-amplitude raised-cosine envelope. Next, the experiment was repeated with the DAC reference current fixed in the middle of its range and a scaling factor---swept from 0-to-1---applied to all of the sub-DACs to generate a nominally raised cosine envelope of varying amplitude.  In both experiments, the full scale of the reference DAC was set to the middle of its range (by setting $I_\text{P}$ appropriately). Example Rabi oscillations for each experiment appear in Figs.~\ref{cal}(a) and \ref{cal}(b). In both cases, non-monotonicity and nonlinearity was observed, but this non-ideal behavior was found to be  much stronger when the reference DAC was used to vary the pulse amplitude.}  
 \begin{figure}[bt!]
 \centering
 \includegraphics[width=\columnwidth]{Figures/FIGURE_16}
@@ -456,6 +445,22 @@ Next, we preformed a Rabi oscillation experiment in order to evaluate the feasib
 \includegraphics[width=\columnwidth]{Figures/FIGURE_17}
 \caption{\CR{Calibrated Rabi oscillation experiments for (a) single- and (b) dual-pulse excitation. High-visibility Rabi oscillations were observed in both cases and, as expected, the period for the dual-pulse experiment was approximatley half of that of the single-pulse experiment. All pulses had a duration of 21\,ns.}}\label{rabidual}
 \end{figure}
+%While the measured statistics would nominally be plotted against the programmed envelope amplitude setting, we found that the DACs were both non-monotonic and nonlinear when operated at cryogenic temperatures. 
+
+\CR{To understand this behavior and create calibrated Rabi oscillation curves, we next measured the relative pulse amplitude as a function of configuration settings using a spectrum analyzer connected to the monitor port (see Fig.~\ref{setup}). Representative curves for the same conditions used to obtain Figs.~\ref{cal}(a) and \ref{cal}(b) appear in Figs.~\ref{cal}(c) and ~\ref{cal}(d), respectively. Significant non-linearity and non-monotonicity was observed when the reference DAC current was employed to vary the pulse amplitude. This behavior may be related to a combination of the sub-threshold operation of the reference DAC, the small transistor sizing, the lack of thermometer coding,  the relatively low output impedance associated with the (non-cascoded) current mirror employed here, and/or leakage in the PMOS current mirror circuit. On the other hand, the measured pulse amplitude was found to be far more linear as a function of the scaled reference sub-DAC amplitudes (see Fig.~\ref{cal}(d)). This could be due to the fact that the sub-DACs were operated more into the saturation regime in comparison to the reference DAC.}
+
+%A representative plot of the measured envelope amplitude as a function of the reference DAC setting appears in Fig.~\ref{cal}(a). For this measurement, the sub-DACs were programmed to produce a nominally raised cosine envelope and the current, $I_\text{P}$, driving the reference DAC was set towards the middle of its range. Significant non-linearity and non-monotonicity was observed. This behavior may be related to a combination of the sub-threshold operation of the reference DAC, small transistor sizing, lack of thermometer coding, and the relatively low impedance associated with the (non-cascoded) current mirror employed here.
+
+%We also considered varying the pulse amplitude by scaling the weights of each of the eleven sub-DACs. The measured pulse amplitude is plotted as a function of relative envelope amplitude in Fig.~\ref{cal}(b). The results still display nonlinearity and non-monotonicity, but to a much lesser extent than in the case where the reference amplitude was swept. This is likely due to the fact that the sub-DACs were operated further into the saturation regime and thus were less sensitive to mismatch effects.} %As such, we made an independent measurement of the pulse amplitude as a function of digital setting by using a spectrum analyzer to measure an amplified version of the signal at the monitor port (see Fig.~\ref{setup}). %\CR{Example calibration curves appear in Fig.~\ref{xx}.}
+
+%\CR{Figs.~\ref{cal}(c) and \ref{cal}(d) show the measured Rabi oscillations corresponding to the reference DAC and envelope amplitude sweeps described above. Each point represents the average of 5,000 measurements. The curves were found to be repeatable and agree well with expectation, based upon the curves shown in Fig.~\ref{cal}(a) and \ref{cal}(b).} 
+
+
+
+%\CR{A calibrated Rabi oscillation curve appears in Fig.~\ref{rabidual}(a). For this measurement, the envelope settings ($I_\text{1}$--$I_\text{11}$) were programmed to provide a nominally raised-cosine envelope waveform and the amplitude was varied by stepping the DAC reference current ($I_\text{N}$) through its full 8-bit range. 5,000 statistics were collected at each point and sweeps were carried out for eleven different values of the reference current supplying the amplitude DAC ($I_\text{P}$).}  
+\CR{With the envelope amplitudes characterized, we next generated calibrated Rabi oscillation curves, an example of which appears in Fig.~\ref{rabidual}(a).}  The data reported in this figure were acquired by  sweeping the DAC reference current ($I_\text{N}$) through \CR{its full 8-bit range} for eleven different \CR{full-scale values, set by adjusting the reference current, $I_\text{P}$}. Data \CR{are} not shown for x-axis values below 0.22 since there was insufficient SNR to measure the envelope amplitude using the spectrum analyzer. The results in Fig.\CR{~\ref{rabidual}(a)} show the expected behavior: the maxima of the $|0\rangle$ and $|1\rangle$ state probabilities are consistent with separately measured $|0\rangle$ and $|1\rangle$ state readout error rates of 2.4\% and 6.8\%, respectively.
+
+
 
 A second Rabi experiment was conducted to further explore the ability to drive XY rotations. In this experiment, described in \CR{Fig.~\ref{rabisingle}(c) and \ref{rabisingle}(d)}, the same protocol was employed except the qubit was excited with an extra pulse before being measured. As such, the qubit should experience a factor of two larger rotation. As expected, the Rabi oscillations in Fig.~\ref{rabidual}\CR{(b)} display about a factor of two higher frequency of oscillation in comparison to the previous case in which the qubit was only excited by a single pulse. 
 
@@ -474,7 +479,7 @@ P\left\{|0\rangle\right\}=4\cos^2\left(\phi_\text{B}\right)\sin^2\left(\frac{\th
 \end{equation}
 As such, the experiment should produce a maximum probability of returning $|0\rangle$ when $\phi_\text{B}=0,\pi$ and $\theta_\text{A}=\pi/2,3\pi/2$.
 
-The experiment was carried-out using both the standard control electronics and the CMOS IC and the results appear in Figs.~\ref{Ramsey}(c) and \ref{Ramsey}(d), respectively. In both cases, the general structure is consistent with expectation, however the CMOS IC results appear noisier than those of the standard control electronics. However, this is explained by the fact that the envelope amplitude and carrier phase generated by the CMOS IC were not calibrated in this experiment. The residual error obtained by taking the difference between the measured and ideal results (i.e., equation~(\ref{idealram})) is shown for the baseline measurement and the CMOS IC in Figs.~\ref{Ramsey}(e) and \ref{Ramsey}(f), respectively. \CR{Referring to the plot of the residual error for the CMOS IC (Fig.~\ref{Ramsey}(d)), there is clear structure. This implies that the errors are primarily related to deterministic control errors---that is, over/under rotations and carrier phase errors---rather than stochastic errors associated with noise. As such, it should be feasible to reduce these errors significantly through optimization of the settings used to generate each pulse.}
+The experiment was carried-out using both the standard control electronics and the CMOS IC and the results appear in Figs.~\ref{Ramsey}(c) and \ref{Ramsey}(d), respectively. In both cases, the general structure is consistent with expectation, however the CMOS IC results appear noisier than those of the standard control electronics. However, this is explained by the fact that the envelope amplitude and carrier phase generated by the CMOS IC were not calibrated for this experiment. The residual error obtained by taking the difference between the measured and ideal results (i.e., equation~(\ref{idealram})) is shown for the baseline measurement and the CMOS IC in Figs.~\ref{Ramsey}(e) and \ref{Ramsey}(f), respectively. \CR{Referring to the plot of the residual error for the CMOS IC (Fig.~\ref{Ramsey}(d)), there is clear structure. This implies that the errors are primarily related to deterministic control errors---that is, over/under rotations and carrier phase errors---rather than stochastic errors associated with noise. As such, it should be feasible to reduce these errors significantly through optimization of the settings used to generate each pulse.}
 \subsection{Qubit Relaxation Time ($T_\text{1}$)}
 The relaxation time, $T_\text{1}$, for the qubit was measured using the CMOS IC as well as the baseline system and the results were compared to ensure that the CMOS IC was not introducing additional noise that could drive $\omega_\text{01}$, thereby reducing $T_\text{1}$. For this experiment, the qubit was reset to the $|0\rangle$ state, excited to the $|1\rangle$ state with a $\pi$-pulse, and a state measurement was made after a delay, $\tau$. 100,000 statistics were gathered for each value of $\tau$. 
 
@@ -495,51 +500,52 @@ The $|2\rangle$-state measurement results appear in Fig.~\ref{twostateres} along
 \subsection{Comparison with state of the art}
 The integrated circuit is compared with a state-of-the-art quantum control system in Table~\ref{comptab}. The measured performance is competitive with that of the standard electronics \CR{over the range of quantum control experiments which have been carried out}. However, the size, digital data-rate, and power consumption required to operate the chip are all at least an order of magnitude lower than the standard \CR{control} electronics. Of particular importance is the total power consumption, which is below 2\,mW. This number is equal to the total AC \CR{(clock and LO)} and DC power that must be delivered to the chip to drive a continuous stream of $\pi$-pulses when clocked at 1\,GHz. It is viewed to be a conservative value as the chip is expected to operate at a lower activity factor in practice. 
 \begin{table}[bt!]
-\caption{Comparison of CMOS IC @$f_\text{CLK}=1\,$GHz to State-of-the-art quantum control system }
-\label{comptab}
+\caption{Comparison of CMOS IC @$f_\text{CLK}=1\,$GHz to State-of-the-art quantum control system }\label{comptab}
 \centering
-\begin{tabular}{lrr}
-\toprule
-&Conventional Control&Cryo-CMOS IC\\
-\midrule
-Form Factor&Rack Mount&Integrated Circuit\\
-\CR{Ambient} Temp&300\,K&3\,K\\
-Update Rate&1\,GS/s&1\,GS/s\\
-Instruction Set Size&N/A&16 (4-bit)\\
-Digital Data Rate&28\,Gb/s&$<$0.5\,Gb/s\\
-Measured $T_\text{1}$&18.3\,$\mu$s&17.8$\,\mu$s\\
-$|2\rangle$ population&Negligible&Negligible\\
-$\pi$-Rabi $P\left\{|1\rangle\right\}$&$\approx$95\,\%&$\approx$95\,\%\\
-3 Gate RMS Error&2.5\%&11.7\%\\
-Total AC+DC Power&$>1$\,W&$<2$\,mW\\
-\bottomrule
-\end{tabular}
+\includegraphics[width=0.92\columnwidth]{Figures/table_2}
+%\begin{tabular}{lrr}
+%\toprule
+%&Conventional Control&Cryo-CMOS IC\\
+%\midrule
+%Form Factor&Rack Mount&Integrated Circuit\\
+%\CR{Ambient} Temp&300\,K&3\,K\\
+%Update Rate&1\,GS/s&1\,GS/s\\
+%Instruction Set Size&N/A&16 (4-bit)\\
+%Digital Data Rate&28\,Gb/s&$<$0.5\,Gb/s\\
+%Measured $T_\text{1}$&18.3\,$\mu$s&17.8$\,\mu$s\\
+%$|2\rangle$ population&Negligible&Negligible\\
+%$\pi$-Rabi $P\left\{|1\rangle\right\}$&$\approx$95\,\%&$\approx$95\,\%\\
+%3 Gate RMS Error&2.5\%&11.7\%\\
+%Total AC+DC Power&$>1$\,W&$<2$\,mW\\
+%\bottomrule
+%\end{tabular}
 \end{table}
 
 \begin{table*}[bt!]\begin{center}
 \caption{Extracted transistor parameters}\label{transistors}
-\begin{tabular}{lrrrrrrrrrrrrrrrrr}
-\toprule
-&Temp.&uLVTn&LVTn&RVTn&HVTn&uLVTp&LVTp&RVTp&HVTp\\
-\midrule
-$V_\text{T}$&300\,K&0.18\,V&0.22\,V&0.26\,V&0.34\,V&0.21\,V&0.24\,V&0.29\,V&0.37\,V\\
-&7\,K&0.26\,V&0.30\,V&0.35\,V&0.45\,V&0.34\,V&0.37\,V&0.40\,V&0.45\,V\\
-\midrule
-Sub-threshold&300\,K&\CR{100}\,mV/dec&\CR{92}\,mV/dec&\CR{84}\,mV/dec&\CR{80}\,mV/dec&\CR{103}\,mV/dec&\CR{96}\,mV/dec&\CR{87}\,mV/dec&\CR{83}\,mV/dec\\
-\CR{Swing} &7\,K&\CR{16}\,mV/dec&\CR{15}\,mV/dec&\CR{15}\,mV/dec&\CR{13}\,mV/dec&\CR{33}\,mV/dec&\CR{31}\,mV/dec&\CR{30}\,mV/dec&\CR{22}\,mV/dec\\
-\midrule
-$G_\text{m,pk}$&300\,K&1.5\,S/mm&1.4\,S/mm&1.3\,S/mm&1.2\,S/mm&1.3\,S/mm&1.3\,S/mm&1.2\,S/mm&1.1\,S/mm\\
-&7\,K&2.0\,S/mm&2.0\,S/mm&1.8\,S/mm&1.7\,S/mm&1.8\,S/mm&1.7\,S/mm&1.7\,S/mm&1.5\,S/mm\\
-\midrule
+\includegraphics[width=1.91\columnwidth]{Figures/table_3}
+%\begin{tabular}{lrrrrrrrrrrrrrrrrr}
+%\toprule
+%&Temp.&uLVTn&LVTn&RVTn&HVTn&uLVTp&LVTp&RVTp&HVTp\\
+%\midrule
+%$V_\text{T}$&300\,K&0.18\,V&0.22\,V&0.26\,V&0.34\,V&0.21\,V&0.24\,V&0.29\,V&0.37\,V\\
+%&7\,K&0.26\,V&0.30\,V&0.35\,V&0.45\,V&0.34\,V&0.37\,V&0.40\,V&0.45\,V\\
+%\midrule
+%Sub-threshold&300\,K&\CR{100}\,mV/dec&\CR{92}\,mV/dec&\CR{84}\,mV/dec&\CR{80}\,mV/dec&\CR{103}\,mV/dec&\CR{96}\,mV/dec&\CR{87}\,mV/dec&\CR{83}\,mV/dec\\
+%\CR{Swing} &7\,K&\CR{16}\,mV/dec&\CR{15}\,mV/dec&\CR{15}\,mV/dec&\CR{13}\,mV/dec&\CR{33}\,mV/dec&\CR{31}\,mV/dec&\CR{30}\,mV/dec&\CR{22}\,mV/dec\\
+%\midrule
+%$G_\text{m,pk}$&300\,K&1.5\,S/mm&1.4\,S/mm&1.3\,S/mm&1.2\,S/mm&1.3\,S/mm&1.3\,S/mm&1.2\,S/mm&1.1\,S/mm\\
+%&7\,K&2.0\,S/mm&2.0\,S/mm&1.8\,S/mm&1.7\,S/mm&1.8\,S/mm&1.7\,S/mm&1.7\,S/mm&1.5\,S/mm\\
+%\midrule
 
-$G_\text{m}$&300\,K&14\,mS/mm&15\,mS/mm&16\,mS/mm&16\,mS/mm&13\,mS/mm&14\,mS/mm&15\,mS/mm&17\,mS/mm\\
-$J_\text{D}=10$\,mA/mm&7\,K&33\,mS/mm&32\,mS/mm&32\,mS/mm&31\,mS/mm&23\,mS/mm&27\,mS/mm&30\,mS/mm&28\,mS/mm\\
-\midrule
-$f_\text{t,pk}$&300\,K&285\,GHz&283\,GHz&284\,GHz&237\,GHz&244\,GHz&234\,GHz&230\,GHz&215\,GHz\\
-&7\,K&360\,GHz&365\,GHz&347\,GHz&313\,GHz&349\,GHz&335\,GHz&327\,GHz&291\,GHz\\
-\midrule
-$f_\text{t}$&300\,K&52\,GHz&53\,GHz&46\,GHz&53\,GHz&49\,GHz&49\,GHz&49\,GHz&49\,GHz\\
-$J_\text{D}=10$\,mA/mm&7\,K&92\,GHz&93\,GHz&89\,GHz&86\,GHz&93\,GHz&94\,GHz&89\,GHz&85\,GHz\\
+%$G_\text{m}$&300\,K&14\,mS/mm&15\,mS/mm&16\,mS/mm&16\,mS/mm&13\,mS/mm&14\,mS/mm&15\,mS/mm&17\,mS/mm\\
+%$J_\text{D}=10$\,mA/mm&7\,K&33\,mS/mm&32\,mS/mm&32\,mS/mm&31\,mS/mm&23\,mS/mm&27\,mS/mm&30\,mS/mm&28\,mS/mm\\
+%\midrule
+%$f_\text{t,pk}$&300\,K&285\,GHz&283\,GHz&284\,GHz&237\,GHz&244\,GHz&234\,GHz&230\,GHz&215\,GHz\\
+%&7\,K&360\,GHz&365\,GHz&347\,GHz&313\,GHz&349\,GHz&335\,GHz&327\,GHz&291\,GHz\\
+%\midrule
+%$f_\text{t}$&300\,K&52\,GHz&53\,GHz&46\,GHz&53\,GHz&49\,GHz&49\,GHz&49\,GHz&49\,GHz%\\
+%$J_\text{D}=10$\,mA/mm&7\,K&92\,GHz&93\,GHz&89\,GHz&86\,GHz&93\,GHz&94\,GHz&89\,GHz&85\,GHz\\
 %\midrule
 %$f_\text{max,pk}$&300\,K&129\,GHz&126\,GHz&126\,GHz&128\,GHz&99\,GHz&98\,GHz&97\,GHz&91\,GHz%\\
 %&7\,K&151\,GHz&150\,GHz&150\,GHz&145\,GHz&112\,GHz&111\,GHz&109\,GHz&111\,GHz\\
@@ -561,8 +567,8 @@ $J_\text{D}=10$\,mA/mm&7\,K&92\,GHz&93\,GHz&89\,GHz&86\,GHz&93\,GHz&94\,GHz&89\,
 %\midrule
 %HVT&300\\
 %HVT&7\\
-\bottomrule
-\end{tabular}
+%\bottomrule
+%\end{tabular}
 \end{center}
 \end{table*}
 \section{Conclusion}
@@ -583,9 +589,9 @@ Extracted parameters for each of the transistors appear for reference in Table~\
 
 \begin{IEEEbiography}[{\includegraphics[width=1in,height
 =1.25in,clip,keepaspectratio]{Photos_For_JSSC/BARDIN}}]{Joseph C. Bardin}
-(S’01–M’10–SM’18) received the B.S. degree in electrical engineering from the University of California at Santa Barbara in 2003, the M.S. degree in electrical engineering from the University of California at Los Angeles in 2005, and the Ph.D. degree in electrical engineering from the California Institute of Technology in 2009. 
+(S'01--M'10--SM'18) received the B.S. degree in electrical engineering from the University of California at Santa Barbara in 2003, the M.S. degree in electrical engineering from the University of California at Los Angeles in 2005, and the Ph.D. degree in electrical engineering from the California Institute of Technology in 2009. 
 
-From 2003 to 2005, he was with the Jet Propulsion Laboratory, California Institute of Technology, where he was involved in the demonstration of an array-based downlink for the NASA deep-space network. From 2009 to 2010, he was a Post-Doctoral Researcher with the Caltech High-Speed Integrated Circuits Group, where he was involved in self-healing microwave receivers. In 2010, he joined the University of Massachusetts Amherst, where he is currently an Associate Professor of Electrical and Computer Engineering. Since 2017, he has also been with the Google AI Quantum, where he focuses on the development of novel integrated electronics for quantum computing. 
+From 2003 to 2005, he was with the Jet Propulsion Laboratory, California Institute of Technology, where he was involved in the demonstration of an array-based downlink for the NASA deep-space network. From 2009 to 2010, he was a Post-Doctoral Researcher with the Caltech High-Speed Integrated Circuits Group, where he focused on self-healing microwave receivers. In 2010, he joined the University of Massachusetts Amherst, where he is currently an Associate Professor of Electrical and Computer Engineering. Since 2017, he has also been with the Google AI Quantum, where he focuses on the development of novel integrated electronics for quantum computing. 
 
 Dr. Bardin was a recipient of the 2011 DARPA Young Faculty Award, the 2014 NSF CAREER Award, the 2015 ONR YIP Award, the 2016 UMass College of Engineering Outstanding Junior Faculty Award, and the 2016 UMass Convocation Award for Excellence in Research and Creative Activities.
 \end{IEEEbiography}
@@ -600,7 +606,7 @@ From 2007 to 2012, he was at the University of Leiden in the Netherlands where h
 =1.25in,clip,keepaspectratio]{Photos_For_JSSC/ErikLucero}}]{Erik Lucero}
 (S’00, M’18) received the B.S. (Hons.) degree in electrical engineering and B.S. (Hons.) degree in Applied Physics from the University of Colorado at Denver in 2005, M.A. degree in physics from the University of California at Santa Barbara in 2008, and the Ph.D. degree in physics from the University of California at Santa Barbara in 2012.
 
-From 2001 to 2005 he was a PREP Fellow at the National Institute of Standards and Technology in Boulder, Colorado where he worked on superconducting quantum interference device arrays for the cryogenic dark matter search and a novel SQUID operational amplifier in collaboration with Professor Martin Huber at NIST and the SQUID Laboratory at the University of Colorado at Denver. In 2005 he joined Professor John Martinis’ group at the University of California at Santa Barbara, among Professor John Martinis’s first cohort of graduate students developing superconducting qubits. From 2012 to 2013, he was a Post-Doctoral Researcher at IBM T.J. Watson Research Center in Yorktown Heights, NY, where he worked on superconducting qubits. From 2013 to 2015 he worked at HRL Laboratories in Malibu, CA as a Senior Research Staff Member where he focused on quantum dots and semiconductor qubits. In 2015 he joined Google in Santa Barbara, CA. He is currently a Staff Research Scientist and the Technical Site Lead in Santa Barbara, leading production quantum hardware.
+From 2001 to 2005 he was a PREP Fellow at the National Institute of Standards and Technology in Boulder, Colorado where he worked on superconducting quantum interference device arrays for the cryogenic dark matter search and a novel SQUID operational amplifier in collaboration with Professor Martin Huber at NIST and the SQUID Laboratory at the University of Colorado at Denver. In 2005 he joined Professor John Martinis's group at the University of California at Santa Barbara, among Professor John Martinis’s first cohort of graduate students developing superconducting qubits. From 2012 to 2013, he was a Post-Doctoral Researcher at IBM T.J. Watson Research Center in Yorktown Heights, NY, where he worked on superconducting qubits. From 2013 to 2015 he worked at HRL Laboratories in Malibu, CA as a Senior Research Staff Member where he focused on quantum dots and semiconductor qubits. In 2015 he joined Google in Santa Barbara, CA. He is currently a Staff Research Scientist and the Technical Site Lead in Santa Barbara, leading production quantum hardware.
 \end{IEEEbiography}
 
 \begin{IEEEbiography}[{\includegraphics[width=1in,height

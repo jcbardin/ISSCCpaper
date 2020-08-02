@@ -145,7 +145,7 @@ A.~Beckers, F.~Jazaeri, and C.~Enz, ``Characterization and modeling of 28-nm
 
 \bibitem{bardinISSCC}
 J.~C. Bardin, E.~Jeffrey, E.~Lucero, T.~Huang, O.~Naaman, R.~Barends
-  \emph{et~al.}, ``A 28nm bulk-cmos 4-to-8{GHz} $<$2{mW} cryogenic pulse
+  \emph{et~al.}, ``A 28nm bulk-{CMOS} 4-to-8{GHz} $<$2{mW} cryogenic pulse
   modulator for scalable quantum computing,'' in \emph{2019 IEEE International
   Solid-State Circuits Conference-(ISSCC)}.\hskip 1em plus 0.5em minus
   0.4em\relax IEEE, 2019, pp. 456--458.
@@ -174,7 +174,7 @@ J.~Majer, J.~Chow, J.~Gambetta, J.~Koch, B.~Johnson, J.~Schreier \emph{et~al.},
 
 \bibitem{martinis2014fast}
 J.~M. Martinis and M.~R. Geller, ``Fast adiabatic qubit gates using only
-  $\sigma$ z control,'' \emph{Physical Review A}, vol.~90, no.~2, p. 022307,
+  $\sigma_z$ control,'' \emph{Physical Review A}, vol.~90, no.~2, p. 022307,
   2014.
 
 \bibitem{chen2018metrology}
@@ -184,7 +184,7 @@ Z.~Chen, ``Metrology of quantum control and measurement in superconducting
 \bibitem{PhysRevLett.94.123602}
 \BIBentryALTinterwordspacing
 D.~I. Schuster, A.~Wallraff, A.~Blais, L.~Frunzio, R.-S. Huang, J.~Majer
-  \emph{et~al.}, ``ac stark shift and dephasing of a superconducting qubit
+  \emph{et~al.}, ``{AC} stark shift and dephasing of a superconducting qubit
   strongly coupled to a cavity field,'' \emph{Phys. Rev. Lett.}, vol.~94, p.
   123602, Mar 2005. [Online]. Available:
   \url{https://link.aps.org/doi/10.1103/PhysRevLett.94.123602}
@@ -245,7 +245,7 @@ A.~A. Clerk, M.~H. Devoret, S.~M. Girvin, F.~Marquardt, and R.~J. Schoelkopf,
 
 \bibitem{steffen2003accurate}
 M.~Steffen, J.~M. Martinis, and I.~L. Chuang, ``Accurate control of josephson
-  phase qubits,'' \emph{Physical Review B}, vol.~68, no.~22, p. 224518, 2003.
+  qubits,'' \emph{Physical Review B}, vol.~68, no.~22, p. 224518, 2003.
 
 \bibitem{gambetta2011analytic}
 J.~M. Gambetta, F.~Motzoi, S.~Merkel, and F.~K. Wilhelm, ``Analytic control
@@ -261,21 +261,21 @@ J.~van Dijk, M.~Babaie, E.~Charbon, A.~Vladimircscu, F.~Sebastiano
 
 \bibitem{coskun2014cryogenic}
 A.~Coskun and J.~Bardin, ``Cryogenic small-signal and noise performance of 32nm
-  soi cmos,'' in \emph{2014 IEEE MTT-S International Microwave Symposium
+  {SOI CMOS},'' in \emph{2014 IEEE MTT-S International Microwave Symposium
   (IMS2014)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2014, pp. 1--4.
 
 \bibitem{IEDM_CHARBON}
 E.~{Charbon}, F.~{Sebastiano}, A.~{Vladimirescu}, H.~{Homulle}, S.~{Visser},
-  L.~{Song} \emph{et~al.}, ``Cryo-cmos for quantum computing,'' in \emph{2016
+  L.~{Song} \emph{et~al.}, ``Cryo-{CMOS} for quantum computing,'' in \emph{2016
   IEEE International Electron Devices Meeting (IEDM)}, Dec 2016, pp.
   13.5.1--13.5.4.
 
 \bibitem{beckers_GM}
 A.~{Beckers}, F.~{Jazaeri}, H.~{Bohuslavskyi}, L.~{Hutin}, S.~{De Franceschi},
-  and C.~{Enz}, ``Design-oriented modeling of 28 nm fdsoi cmos technology down
-  to 4.2 k for quantum computing,'' in \emph{2018 Joint International EUROSOI
-  Workshop and International Conference on Ultimate Integration on Silicon
-  (EUROSOI-ULIS)}, March 2018, pp. 1--4.
+  and C.~{Enz}, ``Design-oriented modeling of 28 nm {FDSOI CMOS} technology
+  down to 4.2 {K} for quantum computing,'' in \emph{2018 Joint International
+  EUROSOI Workshop and International Conference on Ultimate Integration on
+  Silicon (EUROSOI-ULIS)}, March 2018, pp. 1--4.
 
 \bibitem{magesan2012efficient}
 E.~Magesan, J.~M. Gambetta, B.~R. Johnson, C.~A. Ryan, J.~M. Chow, S.~T. Merkel
